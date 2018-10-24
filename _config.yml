@@ -4,7 +4,7 @@ email: benbfly@gmail.com
 url: https://benbermanlab.com
 description: "Ben Berman Lab at Hebrew University"
 keywords: "key1, key2"
-skills: "computational biology"
+skills: "Ben Berman lab at Hebrew University"
 meta_author: Berman Benjamin
 
 # Google webmaster tools
@@ -40,15 +40,15 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: http://twitter.com/benbfly
+#   - title: facebook
+#     url:
+#   - title: stack-overflow
+#     url: http://stackoverflow.com/questions/tagged/jekyll
+#   - title: bitbucket
+#     url: http://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/benbfly
 
 # Postal address (add as many lines as necessary)
 address:
