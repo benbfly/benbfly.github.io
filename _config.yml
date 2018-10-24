@@ -1,8 +1,8 @@
 # Site settings
-title: BermanLab@HUJI
+title: BermanLab
 email: benbfly@gmail.com
-url: https://benbfly.github.io
-description: "Ben Berman lab"
+url: https://benbermanlab.com
+description: "Ben Berman Lab at Hebrew University"
 keywords: "key1, key2"
 skills: "computational biology"
 meta_author: Berman Benjamin
@@ -32,7 +32,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+#  copyright: Dr. Henry Jekyll
   location: Location
   social: Around the Web
   credits: Credits
@@ -51,12 +51,12 @@ social:
     url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
-# address:
-#   - line: P.O. Box 12271, Jerusalem, 91120 Israel
-#   - line: Beverly Hills, CA 90210
+address:
+  - line: Department of Development Biology and Cancer Research, Faculty of Medicine
+  - line: The Hebrew University of Jerusalem
 
 # Credits content
-credits: 'Freelancer theme by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Uses GitHub pages, Jekyll, and Freelancer theme by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
