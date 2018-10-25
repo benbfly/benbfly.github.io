@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/)
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
@@ -280,3 +281,18 @@ View this jekyll theme in action [here](https://jeromelachaud.github.io/freelanc
 ---------
 For more details, read the [documentation](http://jekyllrb.com/)
 >>>>>>> parent of 0b92507... changed all to grayscale theme
+=======
+Grayscale Jekyll theme
+=========================
+
+Jekyll theme based on [Grayscale bootstrap theme ](http://ironsummitmedia.github.io/startbootstrap-grayscale/)
+
+## Demo
+View this jekyll theme in action [here](https://jeromelachaud.github.io/grayscale-theme)
+
+## Screenshot
+![screenshot](https://raw.githubusercontent.com/jeromelachaud/grayscale-theme/master/screenshot.png)
+
+=========
+For more details, read the [documentation](http://jekyllrb.com/)
+>>>>>>> parent of db54322... switching to jekyll github
