@@ -1,22 +1,14 @@
 <!DOCTYPE html>
 <html>
     {% include head.html %}
-    <body id="page-top" class="index">
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     {% include nav.html %}
     {% include header.html %}
-    {% include portfolio_grid.html %}
     {% include about.html %}
-
-    {% if site.contact == "static" %}
-    {% include contact_static.html %}
-    {% elsif site.contact == "disqus" %}
-    {% include contact_disqus.html %}
-    {% else %}
+    {% include download.html %}
     {% include contact.html %}
-    {% endif %}
-
+    {% include map.html %}
     {% include footer.html %}
-    {% include modals.html %}
     {% include js.html %}
     </body>
 </html>
