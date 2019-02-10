@@ -1,5 +1,4 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -233,26 +232,6 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 =======
   - title: twitter
     url: http://twitter.com/jekyllrb
-=======
-# Site settings
-title: Grayscale
-email: your-email@domain.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary-dark: '#000000'
-  links: '#219ab3'
-
-# Footer settings
-footer: Your Website
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: https://twitter.com/SBootstrap
->>>>>>> parent of db54322... switching to jekyll github
   - title: facebook
     url:
   - title: stack-overflow
@@ -260,7 +239,6 @@ social:
   - title: bitbucket
     url: http://bitbucket.org/jekyll
   - title: github
-<<<<<<< HEAD
     url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
@@ -374,10 +352,3 @@ defaults:
       comments: # true
       share: true
       related: true
-=======
-    url: https://github.com/IronSummitMedia/startbootstrap
-
-# Build settings
-markdown: kramdown
-permalink: pretty
->>>>>>> parent of db54322... switching to jekyll github
