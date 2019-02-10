@@ -1,0 +1,6 @@
+{% include css/bootstrap.min.css %}
+<<<<<<< HEAD
+{% include css/main.css %}
+=======
+{% include css/grayscale.css %}
+>>>>>>> parent of db54322... switching to jekyll github
