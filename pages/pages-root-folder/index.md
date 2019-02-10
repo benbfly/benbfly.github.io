@@ -35,7 +35,7 @@ widget1:
 #
 callforaction:
   url: https://tinyletter.com/feeling-responsive
-  text: Positions Open! ›
+  text: Inform me about new updates and features ›
   style: alert
 permalink: /index.html
 #
