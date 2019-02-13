@@ -1,7 +1,7 @@
 ---
 layout: default
-title: About
+title: about
+author: benbfly
 ---
-# About page
 
-This page tells you a little bit about me.
+Ben reading list
