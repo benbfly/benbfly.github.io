@@ -1,2 +1,3 @@
 
 # Followed instructions here: https://nicolas-van.github.io/bootstrap-4-github-pages/
+bundle exec jekyll serve
