@@ -1,12 +1,11 @@
 
-<div class="py-2 border-top">
+<div class="py-5 border-top">
   <div class="container">
+
     
     <div class="row">
 
       <div class="col-sm">
-	{{ site.title }}
-<!--
         <ul class="list-unstyled">
           <li>
             {%- if site.author -%}
@@ -23,12 +22,13 @@
             </li>
           {%- endif -%}
         </ul>
--->
       </div>
 
 
       <div class="col-sm text-right">
-        <p>©{{- site.description | escape -}}</p>
+        <p>{{- site.description | escape -}}</p>
+
+        
       </div>
 
     </div>
