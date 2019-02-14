@@ -1,0 +1,28 @@
+<html>
+
+<body>
+  <div id="url-out" data-type="url" class="out"></div>
+
+
+  <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+  <script class="code" type="text/javascript">
+var urldata = new Cite()
+
+    urldata.set( [ "Q26899110", "Q27795847" ] )
+
+    // Get options
+    var opt = {
+      format: 'string', type  : 'html',
+      style : 'citation-vancouver-egonw', lang  : 'en-US', template: customTemplate
+    }
+
+    // Get data
+    htmlOutput = urldata.get( opt )
+    $(  '#url-out' ).html( htmlOutput.replace( /&(lt|#60);/g, '<' ).replace( /&(gt|#62);/g, '>' ) )
+
+  </script>
+</body>
+</html>
+
+
+

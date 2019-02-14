@@ -7,4 +7,20 @@
   {%- feed_meta -%}
   <script src="{{ "/assets/javascript/bootstrap/jquery.min.js" | relative_url }}"></script>
   <script src="{{ "/assets/javascript/bootstrap/bootstrap.bundle.min.js" | relative_url }}"></script>
+  <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+  <script src="https://cdn.jsdelivr.net/npm/citation-js"></script>
+  <script>var Cite = require('citation-js')</script>
+  <script>
+        // Get options
+        var opt = {
+          format: 'string',
+          type  : 'html',
+          style : 'citation-vancouver',
+          lang  : 'en-US', 
+          append: function (entry) {
+            return ' doi:<a href="https://doi.org/' + entry.DOI + '">' + entry.DOI + '</a>' +
+                   ' <span class="altmetric-embed" data-doi="' + entry.DOI + '"></span>'
+          },
+        }
+    </script>
 </head>
