@@ -8,6 +8,10 @@
 @import "bootstrap-4-jekyll/bootstrap-4-jekyll";
 @import "bootstrap_customization";
 
+.jumbotron{
+	background-image: url("/assets/Oldbooks-02.jpg");
+	background-size:cover;
+}
 .push-spaces{
 	height: 200px;
 }
