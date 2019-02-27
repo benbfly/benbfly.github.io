@@ -4,4 +4,11 @@ title: Research
 author: benbfly
 ---
 
-Research
+***
+
+{% for project in site.projects %}
+
+### {{project.title}}
+{{project.content | markdownify }}
+
+{% endfor %}

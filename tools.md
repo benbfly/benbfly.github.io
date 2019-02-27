@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Software Tools
+title: Software
 author: benbfly
 ---
 
