@@ -1,6 +1,6 @@
 ---
 layout: page
-title: publications
+title: Publications
 author: benbfly
 ---
 

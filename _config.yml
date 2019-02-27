@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: MethylGrammarLab
-email: ""
+email: "ben.berman@mail.huji.ac.il"
 description: >- # this means to ignore newlines until "baseurl:"
  The Berman lab at The Hebrew University
 #baseurl: "" # the subpath of your site, e.g. /blog
@@ -36,10 +36,13 @@ header_pages:
   - research.md
   - tools.md
   - pubs.md
+  - credits.md
+  - contact.md
 
 # Collections
 collections:
   - members
+  - jobs
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
