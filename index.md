@@ -1,6 +1,6 @@
 ---
-layout: home
+layout: default
 title: Methyl Grammar Lab
 ---
 
-![multiscale image](assets/images/multiscale-plot.png)
+![multiscale image](assets/images/multiscale-plot.jpg)
