@@ -9,18 +9,27 @@
   <script src="{{ "/assets/javascript/bootstrap/bootstrap.bundle.min.js" | relative_url }}"></script>
   <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
   <script src="https://cdn.jsdelivr.net/npm/citation-js"></script>
+  <script src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
   <script>var Cite = require('citation-js')</script>
   <script>
         // Get options
         var opt = {
           format: 'string',
           type  : 'html',
-          style : 'citation-vancouver',
-          lang  : 'en-US', 
+          style : 'citation',
+          lang  : 'en-US',
           append: function (entry) {
             return ' doi:<a href="https://doi.org/' + entry.DOI + '">' + entry.DOI + '</a>' +
+	'<span class="__dimensions_badge_embed__" data-doi="' + entry.DOI + '" data-style="small_rectangle"></span>'
+	{% comment %}
                    ' <span class="altmetric-embed" data-doi="' + entry.DOI + '"></span>'
+	{% endcomment %}
           },
         }
     </script>
 </head>
+
+{% comment %}
+<script src="https://cdn.jsdelivr.net/gh/larsgw/citation.js-replacer@v0.1.0/build/replacer.citation.js"></script>
+{% endcomment %}

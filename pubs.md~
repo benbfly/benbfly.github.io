@@ -1,23 +1,26 @@
 ---
 layout: page
-title: publications
+title: Publications
 author: benbfly
 ---
 
+
+{% assign pubids = "Q58604702, Q52722157, Q38599134, Q38836140, Q37452434, Q35702332, Q35238256, Q36446228, Q34333346" | split: ", " %}
+
+{% for pubid in pubids %}
+
 <div class="card text-white bg-primary mb-3">
-  <div class="card-header" id="citeheader"></div>
   <div class="card-body">
-    <h4 class="card-title" id="citename"></h4>
-    <p class="card-text" id="citefull"></p>
+    <p class="card-text" id="{{pubid}}"></p>
   </div>
 </div>
 <script class="code">
-     $('#citename').html("hiya")
-     $('#citeheader').html("hiya")
-     Cite.async(["Q39436834"], function(wikidata) {
-     htmlOutput = wikidata.get(opt)
-     $('#citefull').html(htmlOutput)
+     Cite.async('{{pubid}}', function(wikidata) {
+     htmlOutput =  wikidata.get(opt)
+     $('#{{pubid}}').html(htmlOutput)
      _altmetric_embed_init()
    })
 </script>
 
+
+{% endfor %}

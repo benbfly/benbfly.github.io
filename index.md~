@@ -1,7 +1,6 @@
 ---
 layout: default
-title: MethylGrammar
+title: Methyl Grammar Lab
 ---
 
-<h1>Methyl Grammar lab</h1>
-<p class="lead">Ben Berman lab at The Hebrew University</p>
+![multiscale image](assets/images/multiscale-plot.jpg)

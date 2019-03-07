@@ -5,7 +5,16 @@
     <div class="row">
 
       <div class="col-sm">
-	{{ site.title }}
+<!--	{{ site.title }} -->
+<address id="year"></address>
+<script>
+    var d = new Date();
+    var n = d.getFullYear();
+    var old = "BPB 2019-";
+    var a = old.concat(n);
+    document.getElementById("year").innerHTML = a;
+    </script>
+
 <!--
         <ul class="list-unstyled">
           <li>
@@ -30,6 +39,8 @@
       <div class="col-sm text-right">
         <p>©{{- site.description | escape -}}</p>
       </div>
+
+
 
     </div>
 
