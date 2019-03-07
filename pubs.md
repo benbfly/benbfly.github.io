@@ -39,7 +39,10 @@ author: benbfly
      Cite.async('{{pubid}}', function(example) {
      htmlOutput =  example.get(opt)
      $('#cite{{forloop.index}}').html(htmlOutput)
+{% comment %}
      window.__dimensions_embed.addBadges()
+{% endcomment %}
+
    })
 </script>
 

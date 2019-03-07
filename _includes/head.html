@@ -18,14 +18,14 @@
           format: 'string',
           type  : 'html',
           style : 'citation',
-          lang  : 'en-US',
+          lang  : 'en-US'
+	{% comment %}
           append: function (entry) {
             return ' doi:<a href="https://doi.org/' + entry.DOI + '">' + entry.DOI + '</a>' +
 	'<span class="__dimensions_badge_embed__" data-doi="' + entry.DOI + '" data-style="small_rectangle"></span>'
-	{% comment %}
                    ' <span class="altmetric-embed" data-doi="' + entry.DOI + '"></span>'
-	{% endcomment %}
           },
+	{% endcomment %}
         }
     </script>
 </head>
