@@ -1,0 +1,42 @@
+{
+  "type": "article-journal",
+  "id": "https://doi.org/10.1186/s13059-015-0668-3",
+  "author": [
+    {
+      "family": "Yao",
+      "given": "Lijing"
+    },
+    {
+      "family": "Shen",
+      "given": "Hui"
+    },
+    {
+      "family": "Laird",
+      "given": "Peter W"
+    },
+    {
+      "family": "Farnham",
+      "given": "Peggy J"
+    },
+    {
+      "family": "Berman",
+      "given": "Benjamin P"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2015,
+        5,
+        21
+      ]
+    ]
+  },
+  "container-title": "Genome Biology",
+  "DOI": "10.1186/s13059-015-0668-3",
+  "volume": "16",
+  "issue": "1",
+  "publisher": "(:unav)",
+  "title": "Inferring regulatory element landscapes and transcription factor networks from cancer methylomes",
+  "URL": "http://genomebiology.com/2015/16/1/105"
+}

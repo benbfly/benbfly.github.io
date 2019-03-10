@@ -1,0 +1,95 @@
+{
+  "type": "article-journal",
+  "id": "https://doi.org/10.1038/ng.3683",
+  "author": [
+    {
+      "family": "Hao",
+      "given": "Jia-Jie"
+    },
+    {
+      "family": "Lin",
+      "given": "De-Chen"
+    },
+    {
+      "family": "Dinh",
+      "given": "Huy Q"
+    },
+    {
+      "family": "Mayakonda",
+      "given": "Anand"
+    },
+    {
+      "family": "Jiang",
+      "given": "Yan-Yi"
+    },
+    {
+      "family": "Chang",
+      "given": "Chen"
+    },
+    {
+      "family": "Jiang",
+      "given": "Ye"
+    },
+    {
+      "family": "Lu",
+      "given": "Chen-Chen"
+    },
+    {
+      "family": "Shi",
+      "given": "Zhi-Zhou"
+    },
+    {
+      "family": "Xu",
+      "given": "Xin"
+    },
+    {
+      "family": "Zhang",
+      "given": "Yu"
+    },
+    {
+      "family": "Cai",
+      "given": "Yan"
+    },
+    {
+      "family": "Wang",
+      "given": "Jin-Wu"
+    },
+    {
+      "family": "Zhan",
+      "given": "Qi-Min"
+    },
+    {
+      "family": "Wei",
+      "given": "Wen-Qiang"
+    },
+    {
+      "family": "Berman",
+      "given": "Benjamin P"
+    },
+    {
+      "family": "Wang",
+      "given": "Ming-Rong"
+    },
+    {
+      "family": "Koeffler",
+      "given": "H Phillip"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        10,
+        17
+      ]
+    ]
+  },
+  "container-title": "Nature Genetics",
+  "DOI": "10.1038/ng.3683",
+  "volume": "48",
+  "issue": "12",
+  "page": "1500-1507",
+  "publisher": "(:unav)",
+  "title": "Spatial intratumoral heterogeneity and temporal clonal evolution in esophageal squamous cell carcinoma",
+  "URL": "http://www.nature.com/articles/ng.3683"
+}

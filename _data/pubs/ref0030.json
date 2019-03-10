@@ -1,0 +1,86 @@
+{
+  "type": "article-journal",
+  "id": "https://doi.org/10.1136/gutjnl-2017-314607",
+  "author": [
+    {
+      "family": "Lin",
+      "given": "De-Chen"
+    },
+    {
+      "family": "Dinh",
+      "given": "Huy Q"
+    },
+    {
+      "family": "Xie",
+      "given": "Jian-Jun"
+    },
+    {
+      "family": "Mayakonda",
+      "given": "Anand"
+    },
+    {
+      "family": "Silva",
+      "given": "Tiago Chedraoui"
+    },
+    {
+      "family": "Jiang",
+      "given": "Yan-Yi"
+    },
+    {
+      "family": "Ding",
+      "given": "Ling-Wen"
+    },
+    {
+      "family": "He",
+      "given": "Jian-Zhong"
+    },
+    {
+      "family": "Xu",
+      "given": "Xiu-E"
+    },
+    {
+      "family": "Hao",
+      "given": "Jia-Jie"
+    },
+    {
+      "family": "Wang",
+      "given": "Ming-Rong"
+    },
+    {
+      "family": "Li",
+      "given": "Chunquan"
+    },
+    {
+      "family": "Xu",
+      "given": "Li-Yan"
+    },
+    {
+      "family": "Li",
+      "given": "En-Min"
+    },
+    {
+      "family": "Berman",
+      "given": "Benjamin P"
+    },
+    {
+      "family": "Phillip Koeffler",
+      "given": "H"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2018,
+        10
+      ]
+    ]
+  },
+  "container-title": "Gut",
+  "DOI": "10.1136/gutjnl-2017-314607",
+  "volume": "67",
+  "issue": "10",
+  "page": "1769-1779",
+  "publisher": "(:unav)",
+  "title": "Identification of distinct mutational patterns and new driver genes in oesophageal squamous cell carcinomas and adenocarcinomas",
+  "URL": "http://gut.bmj.com/lookup/doi/10.1136/gutjnl-2017-314607"
+}

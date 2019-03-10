@@ -4,14 +4,24 @@ title: Publications
 author: benbfly
 ---
 
-{% for pub_hash in site.data.pubs %}
+{% assign ordered_pubs = site.data.pubs | sort %}
+{% for pub_hash in ordered_pubs %}
 {% assign pub = pub_hash[1] %}
 
 {% if pub.type %}
 
+
+{% comment %}
+Zhou W, Dinh H, Ramjan Z, Weisenberger DJ, Nicolet CM, Shen H*, Laird PW*, Berman BP*. “DNA methylation loss in late-replicating domains is linked to mitotic cell divisions”. Nat. Genet., 2018 50(4);591-602.
+{% endcomment %}
+
 <div class="card text-white bg-primary mb-3" id="cite{{forloop.index}}">
-  <div class="card-body">{{pub.title}}
-  <span class="__dimensions_badge_embed__" id="badge{{forloop.index}}" data-doi="{{pub.DOI}}" data-style="small_rectangle"></span>
+  <div class="card-body">
+       <p class="card-text" id="citetext{{forloop.index}}">
+     {{pub.author[0].family}}, {{pub.author[0].given}} et al. "{{pub.title}}". <em>{{pub.container-title}}</em>, <B>{{pub.issued.date-parts[0][0]}}</B>
+     doi:<a target="_blank" href="https://doi.org/{{pub.DOI}}">{{pub.DOI}}</a>
+     <span class="__dimensions_badge_embed__" id="badge{{forloop.index}}" data-doi="{{pub.DOI}}" data-style="small_rectangle"></span>
+     </p>
   </div>
 </div>
 

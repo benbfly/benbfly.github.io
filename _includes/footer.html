@@ -10,7 +10,11 @@
 <script>
     var d = new Date();
     var n = d.getFullYear();
-    var old = "BPB 2019-";
+    var old = "©BPB 2019-";
+    if (n == 2019)
+    {
+      old = "©BPB ";
+    }
     var a = old.concat(n);
     document.getElementById("year").innerHTML = a;
     </script>
@@ -37,7 +41,7 @@
 
 
       <div class="col-sm text-right">
-        <p>©{{- site.description | escape -}}</p>
+        <p>{{- site.description | escape -}}</p>
       </div>
 
 

@@ -1,9 +1,14 @@
 ---
 layout: page
-title: Software
+title: Software Tools
 author: benbfly
 ---
 
-Software Tools
+***
 
-IGV bisulfite viewer
+{% for tool in site.tools %}
+
+### {{tool.title}}
+{{tool.content | markdownify }}
+
+{% endfor %}

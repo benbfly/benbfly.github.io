@@ -1,0 +1,59 @@
+{
+  "type": "article-journal",
+  "id": "https://doi.org/10.1093/bioinformatics/bty902",
+  "author": [
+    {
+      "family": "Silva",
+      "given": "Tiago C"
+    },
+    {
+      "family": "Coetzee",
+      "given": "Simon G"
+    },
+    {
+      "family": "Gull",
+      "given": "Nicole"
+    },
+    {
+      "family": "Yao",
+      "given": "Lijing"
+    },
+    {
+      "family": "Hazelett",
+      "given": "Dennis J"
+    },
+    {
+      "family": "Noushmehr",
+      "given": "Houtan"
+    },
+    {
+      "family": "Lin",
+      "given": "De-Chen"
+    },
+    {
+      "family": "Berman",
+      "given": "Benjamin P"
+    }
+  ],
+  "contributor": [
+    {
+      "contributorType": "Editor",
+      "family": "Stegle",
+      "given": "Oliver"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2018,
+        10,
+        26
+      ]
+    ]
+  },
+  "container-title": "Bioinformatics",
+  "DOI": "10.1093/bioinformatics/bty902",
+  "publisher": "(:unav)",
+  "title": "ELMER v.2: an R/Bioconductor package to reconstruct gene regulatory networks from DNA methylation and transcriptome profiles",
+  "URL": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty902/5145133"
+}
