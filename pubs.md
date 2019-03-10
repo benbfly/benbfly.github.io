@@ -5,6 +5,12 @@ author: benbfly
 ---
 
 {% assign ordered_pubs = site.data.pubs | sort %}
+{% assign full_pubs = "https://scholar.google.com/citations?user=GnZNoE4AAAAJ" %}
+
+<p>
+{{ ordered_pubs | size }} orresponding author papers selected from 57 published papers from the Berman lab (complete list at <a target="_blank" href="{{full_pubs}}"><b>{{full_pubs}}</b></a>).
+</p>
+
 {% for pub_hash in ordered_pubs %}
 {% assign pub = pub_hash[1] %}
 
