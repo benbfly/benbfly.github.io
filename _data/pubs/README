@@ -1,0 +1,6 @@
+
+# Example
+curl https://api.crossref.org/works/10.1126/science.169.3946.635/transform/application/vnd.citationstyles.csl+json
+
+curl https://data.datacite.org/application/pdf/10.5284/1015681
+md-154-99:_pubs bermanb$ curl https://data.datacite.org/application/vnd.citationstyles.csl+json/10.1126/science.169.3946.635

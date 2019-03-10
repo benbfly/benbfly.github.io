@@ -4,15 +4,37 @@ title: Publications
 author: benbfly
 ---
 
+{% for pub_hash in site.data.pubs %}
+{% assign pub = pub_hash[1] %}
+
+{% if pub.type %}
+
+<div class="card text-white bg-primary mb-3" id="cite{{forloop.index}}">
+  <div class="card-body">{{pub.title}}
+  <span class="__dimensions_badge_embed__" id="badge{{forloop.index}}" data-doi="{{pub.DOI}}" data-style="small_rectangle"></span>
+  </div>
+</div>
+<script class="code">
+     window.__dimensions_embed.addBadges()
+</script>
+
+{% endif %}
+{% endfor %}
+
+
+
+
+
+
+{% comment %}
+<!--------------- OLD ------------->
 
 <!-- DOIs -->
-{% assign pubids = "10.1093/bioinformatics/bty902, 10.1038/S41588-018-0073-4, 10.1136/GUTJNL-2017-314607, 10.1161/CIRCULATIONAHA.116.024590, 10.1038/NG.3683, 10.1186/S13059-015-0668-3, 10.1101/GR.183368.114, 10.1101/GR.143008.112, 10.1186/GB-2012-13-7-R61" | split: ", " %}
+{% assign dois = "10.1093/bioinformatics/bty902, 10.1038/S41588-018-0073-4, 10.1136/GUTJNL-2017-314607, 10.1161/CIRCULATIONAHA.116.024590, 10.1038/NG.3683, 10.1186/S13059-015-0668-3, 10.1101/GR.183368.114, 10.1101/GR.143008.112, 10.1186/GB-2012-13-7-R61" | split: ", " %}
 
 <!-- Wikidata -->
 
-{% comment %}
-{% assign pubids = "Q58604702, Q52722157, Q38599134, Q38836140, Q37452434, Q35702332, Q35238256, Q36446228, Q34333346" | split: ", " %}
-{% endcomment %}
+{% assign wikiids = "Q58604702, Q52722157, Q38599134, Q38836140, Q37452434, Q35702332, Q35238256, Q36446228, Q34333346" | split: ", " %}
 
 
 {% for pubid in pubids %}
@@ -65,3 +87,5 @@ author: benbfly
 
 {% endfor %}
 
+
+{% endcomment %}

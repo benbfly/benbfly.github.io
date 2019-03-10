@@ -1,0 +1,58 @@
+{
+  "type": "article-journal",
+  "id": "https://doi.org/10.1038/s41588-018-0073-4",
+  "author": [
+    {
+      "family": "Zhou",
+      "given": "Wanding"
+    },
+    {
+      "family": "Dinh",
+      "given": "Huy Q."
+    },
+    {
+      "family": "Ramjan",
+      "given": "Zachary"
+    },
+    {
+      "family": "Weisenberger",
+      "given": "Daniel J."
+    },
+    {
+      "family": "Nicolet",
+      "given": "Charles M."
+    },
+    {
+      "family": "Shen",
+      "given": "Hui"
+    },
+    {
+      "family": "Laird",
+      "given": "Peter W."
+    },
+    {
+      "family": "Berman",
+      "given": "Benjamin P."
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2018,
+        4,
+        2
+      ]
+    ]
+  },
+  "container-title": "Nature Genetics",
+  "DOI": "10.1038/s41588-018-0073-4",
+  "volume": "50",
+  "issue": "4",
+  "page": "591-602",
+  "publisher": "(:unav)",
+  "title": "DNA methylation loss in late-replicating domains is linked to mitotic cell division",
+  "URL": {
+    "content_version": "vor",
+    "__content__": "http://www.nature.com/articles/s41588-018-0073-4"
+  }
+}

@@ -1,3 +1,0 @@
-
-# Example
-curl https://api.crossref.org/works/10.1126/science.169.3946.635/transform/application/vnd.citationstyles.csl+json

@@ -1,0 +1,47 @@
+{
+  "type": "article-journal",
+  "id": "https://doi.org/10.1101/gr.143008.112",
+  "author": [
+    {
+      "family": "Kelly",
+      "given": "T. K."
+    },
+    {
+      "family": "Liu",
+      "given": "Y."
+    },
+    {
+      "family": "Lay",
+      "given": "F. D."
+    },
+    {
+      "family": "Liang",
+      "given": "G."
+    },
+    {
+      "family": "Berman",
+      "given": "B. P."
+    },
+    {
+      "family": "Jones",
+      "given": "P. A."
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2012,
+        9,
+        7
+      ]
+    ]
+  },
+  "container-title": "Genome Research",
+  "DOI": "10.1101/gr.143008.112",
+  "volume": "22",
+  "issue": "12",
+  "page": "2497-2506",
+  "publisher": "(:unav)",
+  "title": "Genome-wide mapping of nucleosome positioning and DNA methylation within individual DNA molecules",
+  "URL": "http://genome.cshlp.org/cgi/doi/10.1101/gr.143008.112"
+}
