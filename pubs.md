@@ -14,9 +14,6 @@ author: benbfly
   <span class="__dimensions_badge_embed__" id="badge{{forloop.index}}" data-doi="{{pub.DOI}}" data-style="small_rectangle"></span>
   </div>
 </div>
-<script class="code">
-     window.__dimensions_embed.addBadges()
-</script>
 
 {% endif %}
 {% endfor %}
