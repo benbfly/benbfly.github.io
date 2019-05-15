@@ -4,4 +4,5 @@ title: Credits
 author: benbfly
 ---
 
-Logo adapted from Yitzhak Yadgari
+* Methyl Grammar Lab log  adapted from Yitzhak Yadgari
+* Portrait photos courtesy of Hadas Parush / Flash90

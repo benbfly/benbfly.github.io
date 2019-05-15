@@ -5,10 +5,11 @@ author: benbfly
 ---
 
 {% assign ordered_pubs = site.data.pubs | sort %}
-{% assign full_pubs = "https://scholar.google.com/citations?user=GnZNoE4AAAAJ" %}
+{% assign full_pubs_scholar = "https://scholar.google.com/citations?user=GnZNoE4AAAAJ" %}
+{% assign full_pubs_pubmed = "http://www.ncbi.nlm.nih.gov/pubmed?term=berman-bp&cmd=search" %}
 
 <p>
-{{ ordered_pubs | size }} orresponding author papers selected from 57 published papers from the Berman lab (complete list at <a target="_blank" href="{{full_pubs}}"><b>{{full_pubs}}</b></a>).
+{{ ordered_pubs | size }} core papers selected from 57 published papers from the Berman lab. A complete list of publications is available at my <a target="_blank" href="{{full_pubs_scholar}}">Google Scholar page</a> or my <a target="_blank" href="{{full_pubs_pubmed}}">PubMed page</a>.
 </p>
 
 {% for pub_hash in ordered_pubs %}
