@@ -8,7 +8,9 @@ author: benbfly
 
 {% for project in site.projects %}
 
-### {{project.title}}
-{{project.content | markdownify }}
+
+### ![{{project.image}}]({{project.image}}) | {{project.title}}
+--------------------- | -----------------
+| {{project.content | markdownify }}
 
 {% endfor %}

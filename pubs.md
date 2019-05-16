@@ -8,9 +8,10 @@ author: benbfly
 {% assign full_pubs_scholar = "https://scholar.google.com/citations?user=GnZNoE4AAAAJ" %}
 {% assign full_pubs_pubmed = "http://www.ncbi.nlm.nih.gov/pubmed?term=berman-bp&cmd=search" %}
 
-<p>
-{{ ordered_pubs | size }} core papers selected from 57 published papers from the Berman lab. A complete list of publications is available at my <a target="_blank" href="{{full_pubs_scholar}}">Google Scholar page</a> or my <a target="_blank" href="{{full_pubs_pubmed}}">PubMed page</a>.
-</p>
+<h4>
+{{ ordered_pubs | size }} core papers selected from 57 peer-reviewed Berman lab publications. A complete list of publications is available at my <a target="_blank" href="{{full_pubs_scholar}}">Google Scholar page</a> or my <a target="_blank" href="{{full_pubs_pubmed}}">PubMed page</a>.
+</h4>
+<BR>
 
 {% for pub_hash in ordered_pubs %}
 {% assign pub = pub_hash[1] %}

@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Methyl Grammar Lab
+title: About
+author: benbfly
 ---
 
 <div class="row">
