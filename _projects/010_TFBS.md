@@ -1,5 +1,5 @@
 ---
-title: Reconstructing altered gene regulatory networks from chromatin changes at cis-regulatory elements
+title: Reconstructing altered transcription factor networks from chromatin changes at cis-regulatory elements
 link: 
 image: assets/images/BRCA-ELMER.jpg
 video: 
