@@ -36,6 +36,7 @@ header_pages:
   - people.md
   - research.md
   - pubs.md
+  - teaching.md
   - tools.md
   - credits.md
   - contact.md
@@ -46,6 +47,7 @@ collections:
   - jobs
   - projects
   - tools
+  - teaching
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

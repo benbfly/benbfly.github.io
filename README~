@@ -1,7 +1,6 @@
 
 # Followed instructions here: https://nicolas-van.github.io/bootstrap-4-github-pages/
 bundle exec jekyll serve
-open http://localhost:4000
 
 # Took pages from
 https://github.com/PRB05/bookreviewontherocks.github.io ( a fork of https://github.com/nicolas-van/bootstrap-4-github-pages)

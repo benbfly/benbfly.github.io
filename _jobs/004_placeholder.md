@@ -1,4 +1,5 @@
 ---
 jobtitle: Multiple openings:
 ---
+
 Do you have a computational background and are interested in taking part in cutting-edge biomedical genomics research?  Or a biology / medical background interested to gain advanced expertise in Bioinformatics? We have MS/PhD or postdoctoral training positions avaliable, as well as a software engineering position. Please contact Ben Berman (__ben.berman at mail.huji.ac.il__) for more information.
