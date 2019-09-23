@@ -23,6 +23,14 @@ image:
 <li><a target="_blank" href="assets/code/Workshop%20for%20ATAC-seq%20analysis.html">ATAC-seq</a></li>
 </UL>
 
+<H4>Papers</H4>
+<UL>
+<li><a target="_blank" href="assets/papers/R_TCGABiolinks_NAR_2016.pdf">R_TCGABiolinks_NAR_2016.pdf</a></li>
+<li><a target="_blank" href="assets/papers/R_MultiAssayExperiment_CancerResearch_2017.pdf">R_MultiAssayExperiment_CancerResearch_2017.pdf</a></li>
+<li><a target="_blank" href="assets/papers/GENOMIC_Maftools_GenomeRes_2018.pdf">GENOMIC_Maftools_GenomeRes_2018.pdf</a></li>
+<li><a target="_blank" href="assets/papers/EPIGENETICS_ELMER_Bioinformatics_2019.pdf">EPIGENETICS_ELMER_Bioinformatics_2019.pdf</a></li>
+<li><a target="_blank" href="assets/papers/EPIGENETICS_ATACseq_Science_2018.pdf">EPIGENETICS_ATACseq_Science_2018.pdf</a></li>
+</UL>
 
 <H4>Molecular subtypes (TCGABiolinks)</H4>
 <UL>
