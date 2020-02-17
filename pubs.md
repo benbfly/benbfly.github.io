@@ -9,7 +9,7 @@ author: benbfly
 {% assign full_pubs_pubmed = "http://www.ncbi.nlm.nih.gov/pubmed?term=berman-bp&cmd=search" %}
 
 <h4>
-{{ ordered_pubs | size }} core papers selected from 57 peer-reviewed Berman lab publications. A complete list of publications is available at my <a target="_blank" href="{{full_pubs_scholar}}">Google Scholar page</a> or my <a target="_blank" href="{{full_pubs_pubmed}}">PubMed page</a>.
+{{ ordered_pubs | size }} core papers selected from 62 peer-reviewed Berman lab publications. A complete list of publications is available at my <a target="_blank" href="{{full_pubs_scholar}}">Google Scholar page</a> or my <a target="_blank" href="{{full_pubs_pubmed}}">PubMed page</a>.
 </h4>
 <BR>
 
