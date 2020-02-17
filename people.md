@@ -6,11 +6,19 @@ author: benbfly
 
 {% for member in site.members %}
   <h4>{{ member.name }} - {{ member.position }}</h4>
-  <p><img src="assets/images/{{ member.photo }}"></p>
+  <p><img class="img-thumbnail" width="100" src="assets/images/{{ member.photo }}"></p>
   <p>{{ member.content | markdownify }}</p>
   <p>
-  Twitter: <a target="_blank" href="http://twitter.com/{{ member.twitter }}">@{{ member.twitter }}</a>
-  <BR>Email: {{ member.email }}</p>
+{% if member.twitter %}
+  Twitter: <a target="_blank" href="http://twitter.com/{{ member.twitter }}">@{{ member.twitter }}</a><BR>
+{% endif %}
+{% if member.github %}
+  GitHub: <a target="_blank" href="http://github.com/{{ member.github }}">{{ member.github }}</a><BR>
+{% endif %}
+{% if member.email %}
+  Email: {{ member.email }}<BR>
+{% endif %}
+</p>
 {% endfor %}
 
 
