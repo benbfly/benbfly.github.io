@@ -1,6 +1,6 @@
 ---
 name: Devorah Schlesinger
-position: Graduate Student
+position: Graduate Student (with Amir Eden)
 github: 
 twitter: 
 photo: girl.png
