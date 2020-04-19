@@ -1,0 +1,170 @@
+{
+  "type": "article-journal",
+  "id": "https://doi.org/10.1016/j.cels.2019.06.006",
+  "author": [
+    {
+      "family": "Gao",
+      "given": "Galen F."
+    },
+    {
+      "family": "Parker",
+      "given": "Joel S."
+    },
+    {
+      "family": "Reynolds",
+      "given": "Sheila M."
+    },
+    {
+      "family": "Silva",
+      "given": "Tiago C."
+    },
+    {
+      "family": "Wang",
+      "given": "Liang-Bo"
+    },
+    {
+      "family": "Zhou",
+      "given": "Wanding"
+    },
+    {
+      "family": "Akbani",
+      "given": "Rehan"
+    },
+    {
+      "family": "Bailey",
+      "given": "Matthew"
+    },
+    {
+      "family": "Balu",
+      "given": "Saianand"
+    },
+    {
+      "family": "Berman",
+      "given": "Benjamin P."
+    },
+    {
+      "family": "Brooks",
+      "given": "Denise"
+    },
+    {
+      "family": "Chen",
+      "given": "Hu"
+    },
+    {
+      "family": "Cherniack",
+      "given": "Andrew D."
+    },
+    {
+      "family": "Demchok",
+      "given": "John A."
+    },
+    {
+      "family": "Ding",
+      "given": "Li"
+    },
+    {
+      "family": "Felau",
+      "given": "Ina"
+    },
+    {
+      "family": "Gaheen",
+      "given": "Sharon"
+    },
+    {
+      "family": "Gerhard",
+      "given": "Daniela S."
+    },
+    {
+      "family": "Heiman",
+      "given": "David I."
+    },
+    {
+      "family": "Hernandez",
+      "given": "Kyle M."
+    },
+    {
+      "family": "Hoadley",
+      "given": "Katherine A."
+    },
+    {
+      "family": "Jayasinghe",
+      "given": "Reyka"
+    },
+    {
+      "family": "Kemal",
+      "given": "Anab"
+    },
+    {
+      "family": "Knijnenburg",
+      "given": "Theo A."
+    },
+    {
+      "family": "Laird",
+      "given": "Peter W."
+    },
+    {
+      "family": "Mensah",
+      "given": "Michael K.A."
+    },
+    {
+      "family": "Mungall",
+      "given": "Andrew J."
+    },
+    {
+      "family": "Robertson",
+      "given": "A. Gordon"
+    },
+    {
+      "family": "Shen",
+      "given": "Hui"
+    },
+    {
+      "family": "Tarnuzzer",
+      "given": "Roy"
+    },
+    {
+      "family": "Wang",
+      "given": "Zhining"
+    },
+    {
+      "family": "Wyczalkowski",
+      "given": "Matthew"
+    },
+    {
+      "family": "Yang",
+      "given": "Liming"
+    },
+    {
+      "family": "Zenklusen",
+      "given": "Jean C."
+    },
+    {
+      "family": "Zhang",
+      "given": "Zhenyu"
+    },
+    {
+      "family": "Liang",
+      "given": "Han"
+    },
+    {
+      "family": "Noble",
+      "given": "Michael S."
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2019,
+        7
+      ]
+    ]
+  },
+  "container-title": "Cell Systems",
+  "DOI": "10.1016/J.CELS.2019.06.006",
+  "volume": "9",
+  "issue": "1",
+  "page": "24-34.e10",
+  "publisher": "Elsevier BV",
+  "title": "Before and After: Comparison of Legacy and Harmonized TCGA Genomic Data Commons’ Data",
+  "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2405471219302017"
+}

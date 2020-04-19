@@ -3,7 +3,8 @@
 use strict;
 use JSON;
 
-my @dois = ("10.1093/bioinformatics/bty902",
+my @dois = ("10.1016/j.cels.2019.06.006",
+	    "10.1093/bioinformatics/bty902",
 	    "10.1038/S41588-018-0073-4",
 	    "10.1136/GUTJNL-2017-314607",
 	    "10.1161/CIRCULATIONAHA.116.024590",
