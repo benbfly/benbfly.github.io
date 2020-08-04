@@ -1,0 +1,55 @@
+{
+  "type": "article-journal",
+  "id": "https://doi.org/10.1161/circulationaha.116.024590",
+  "author": [
+    {
+      "family": "de Couto",
+      "given": "Geoffrey"
+    },
+    {
+      "family": "Gallet",
+      "given": "Romain"
+    },
+    {
+      "family": "Cambier",
+      "given": "Linda"
+    },
+    {
+      "family": "Jaghatspanyan",
+      "given": "Ervin"
+    },
+    {
+      "family": "Makkar",
+      "given": "Nupur"
+    },
+    {
+      "family": "Dawkins",
+      "given": "James Frederick"
+    },
+    {
+      "family": "Berman",
+      "given": "Benjamin P."
+    },
+    {
+      "family": "Marbán",
+      "given": "Eduardo"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        7,
+        11
+      ]
+    ]
+  },
+  "container-title": "Circulation",
+  "DOI": "10.1161/CIRCULATIONAHA.116.024590",
+  "volume": "136",
+  "issue": "2",
+  "page": "200-214",
+  "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+  "title": "Exosomal MicroRNA Transfer Into Macrophages Mediates Cellular Postconditioning",
+  "URL": "https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.116.024590"
+}

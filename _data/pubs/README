@@ -9,3 +9,7 @@ md-154-99:_pubs bermanb$ curl https://data.datacite.org/application/vnd.citation
 
 # Does this work?
 curl -LH "Accept: application/vnd.citationstyles.csl+json" https://doi.org/10.1093/bioinformatics/bty902 > test.json
+
+
+# Putting this URL into the browser seems to work
+https://data.datacite.org/application/vnd.citationstyles.csl+json/10.1158/0008-5472.CAN-20-0390
