@@ -1,0 +1,103 @@
+{
+  "type": "article-journal",
+  "id": "https://doi.org/10.1158/0008-5472.can-20-0390",
+  "author": [
+    {
+      "family": "Pan",
+      "given": "Jian"
+    },
+    {
+      "family": "Silva",
+      "given": "Tiago C."
+    },
+    {
+      "family": "Gull",
+      "given": "Nicole"
+    },
+    {
+      "family": "Yang",
+      "given": "Qian"
+    },
+    {
+      "family": "Plummer",
+      "given": "Jasmine T."
+    },
+    {
+      "family": "Chen",
+      "given": "Stephanie"
+    },
+    {
+      "family": "Daigo",
+      "given": "Kenji"
+    },
+    {
+      "family": "Hamakubo",
+      "given": "Takao"
+    },
+    {
+      "family": "Gery",
+      "given": "Sigal"
+    },
+    {
+      "family": "Ding",
+      "given": "Ling-Wen"
+    },
+    {
+      "family": "Jiang",
+      "given": "Yan-Yi"
+    },
+    {
+      "family": "Hu",
+      "given": "Shaoyan"
+    },
+    {
+      "family": "Xu",
+      "given": "Li-Yan"
+    },
+    {
+      "family": "Li",
+      "given": "En-Min"
+    },
+    {
+      "family": "Ding",
+      "given": "Yanbing"
+    },
+    {
+      "family": "Klempner",
+      "given": "Samuel J."
+    },
+    {
+      "family": "Gayther",
+      "given": "Simon A."
+    },
+    {
+      "family": "Berman",
+      "given": "Benjamin P."
+    },
+    {
+      "family": "Koeffler",
+      "given": "H. Phillip"
+    },
+    {
+      "family": "Lin",
+      "given": "De-Chen"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2020,
+        7,
+        1
+      ]
+    ]
+  },
+  "container-title": "Cancer Research",
+  "DOI": "10.1158/0008-5472.can-20-0390",
+  "volume": "80",
+  "issue": "13",
+  "page": "2722-2736",
+  "publisher": "American Association for Cancer Research (AACR)",
+  "title": "Lineage-Specific Epigenomic and Genomic Activation of Oncogene HNF4A Promotes Gastrointestinal Adenocarcinomas",
+  "URL": "http://cancerres.aacrjournals.org/lookup/doi/10.1158/0008-5472.CAN-20-0390"
+}

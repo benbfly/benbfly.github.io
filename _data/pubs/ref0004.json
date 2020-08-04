@@ -1,0 +1,49 @@
+{
+  "type": "article-journal",
+  "id": "https://doi.org/10.1101/2020.06.04.134858",
+  "author": [
+    {
+      "family": "Zheng",
+      "given": "Yueyuan"
+    },
+    {
+      "family": "Huang",
+      "given": "Guowei"
+    },
+    {
+      "family": "Silva",
+      "given": "Tiago C."
+    },
+    {
+      "family": "Yang",
+      "given": "Qian"
+    },
+    {
+      "family": "Koeffler",
+      "given": "H Phillip"
+    },
+    {
+      "family": "Berman",
+      "given": "Benjamin P."
+    },
+    {
+      "family": "Lin",
+      "given": "De-Chen"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2020,
+        6,
+        5
+      ]
+    ]
+  },
+  "abstract": "CpG Island promoter genes make up more than half of human genes, and a subset regulated by Polycomb-Repressive Complex 2 (PRC2 -CGI) become DNA methylated and silenced in cancer. Here, we perform a systematic regulatory analysis of CGI genes across TCGA cancer types, finding that PRC2 -CGI genes are frequently prone to transcriptional upregulation as well. These upregulated PRC2 -CGI genes control important pathways such as Epithelial-Mesenchymal Transition and TNFα-associated inflammatory response, and have the greatest cancer-type specificity among any class of CGI genes. Using publicly available chromatin datasets and genetic perturbations, we show that transcription factor binding sites (TFBSs) within distal enhancers underlie transcriptional activation of PRC2 -CGI genes, in contrast to PRC2-free CGI genes which are predominantly regulated by promoter TFBSs. Surprisingly, a large subset of PRC2 -CGI genes that are upregulated in one cancer type are also hypermethylated/silenced in at least one other cancer type, highlighting the high degree of regulatory plasticity likely derived from their complex regulatory patterns during normal development.",
+  "container-title": "bioRxiv",
+  "DOI": "10.1101/2020.06.04.134858",
+  "publisher": "bioRxiv",
+  "title": "A pan-cancer analysis of CpG Island gene regulation reveals extensive plasticity within Polycomb targets",
+  "URL": "http://biorxiv.org/lookup/doi/10.1101/2020.06.04.134858"
+}
