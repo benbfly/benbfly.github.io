@@ -6,7 +6,7 @@ author: benbfly
 
 {% assign ordered_pubs = site.data.pubs | sort %}
 {% assign full_pubs_scholar = "https://scholar.google.com/citations?user=GnZNoE4AAAAJ" %}
-{% assign full_pubs_pubmed = "http://www.ncbi.nlm.nih.gov/pubmed?term=berman-bp&cmd=search" %}
+{% assign full_pubs_pubmed = "https://www.ncbi.nlm.nih.gov/myncbi/benjamin.berman.1/bibliography/public/" %}
 
 <h4>
 {{ ordered_pubs | size }} core papers selected from 62 peer-reviewed Berman lab publications. A complete list of publications is available at my <a target="_blank" href="{{full_pubs_scholar}}">Google Scholar page</a> or my <a target="_blank" href="{{full_pubs_pubmed}}">PubMed page</a>.
