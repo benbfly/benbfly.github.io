@@ -1,0 +1,71 @@
+{
+  "type": "article-journal",
+  "id": "https://doi.org/10.1158/0008-5472.can-16-2822",
+  "author": [
+    {
+      "family": "Lin",
+      "given": "De-Chen"
+    },
+    {
+      "family": "Mayakonda",
+      "given": "Anand"
+    },
+    {
+      "family": "Dinh",
+      "given": "Huy Q."
+    },
+    {
+      "family": "Huang",
+      "given": "Pinbo"
+    },
+    {
+      "family": "Lin",
+      "given": "Lehang"
+    },
+    {
+      "family": "Liu",
+      "given": "Xiaoping"
+    },
+    {
+      "family": "Ding",
+      "given": "Ling-wen"
+    },
+    {
+      "family": "Wang",
+      "given": "Jie"
+    },
+    {
+      "family": "Berman",
+      "given": "Benjamin P."
+    },
+    {
+      "family": "Song",
+      "given": "Er-Wei"
+    },
+    {
+      "family": "Yin",
+      "given": "Dong"
+    },
+    {
+      "family": "Koeffler",
+      "given": "H. Phillip"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        5,
+        1
+      ]
+    ]
+  },
+  "container-title": "Cancer Research",
+  "DOI": "10.1158/0008-5472.CAN-16-2822",
+  "volume": "77",
+  "issue": "9",
+  "page": "2255-2265",
+  "publisher": "American Association for Cancer Research (AACR)",
+  "title": "Genomic and Epigenomic Heterogeneity of Hepatocellular Carcinoma",
+  "URL": "http://cancerres.aacrjournals.org/lookup/doi/10.1158/0008-5472.CAN-16-2822"
+}
