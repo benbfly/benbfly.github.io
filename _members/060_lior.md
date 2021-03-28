@@ -1,6 +1,6 @@
 ---
 name: Lior Fishman
-position: Undergraduate Student (Computer Science)
+position: Undergraduate CS Student (Past member)
 github: liorfishman
 twitter: 
 photo: Lior.jpg

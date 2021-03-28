@@ -1,6 +1,6 @@
 ---
 name: Dror Bar
-position: Undergraduate Student (Computer Science)
+position: Undergraduate CS Student (Past member)
 github: drorbar
 twitter:
 photo: dror.png
