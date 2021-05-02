@@ -1,6 +1,6 @@
 {
   "type": "article-journal",
-  "id": "https://doi.org/10.1101/2020.06.04.134858",
+  "id": "https://doi.org/10.1038/s41467-021-22720-0",
   "author": [
     {
       "family": "Zheng",
@@ -45,9 +45,14 @@
     ]
   },
   "abstract": "CpG Island promoter genes make up more than half of human genes, and a subset regulated by Polycomb-Repressive Complex 2 (PRC2 -CGI) become DNA methylated and silenced in cancer. Here, we perform a systematic regulatory analysis of CGI genes across TCGA cancer types, finding that PRC2 -CGI genes are frequently prone to transcriptional upregulation as well. These upregulated PRC2 -CGI genes control important pathways such as Epithelial-Mesenchymal Transition and TNFα-associated inflammatory response, and have the greatest cancer-type specificity among any class of CGI genes. Using publicly available chromatin datasets and genetic perturbations, we show that transcription factor binding sites (TFBSs) within distal enhancers underlie transcriptional activation of PRC2 -CGI genes, in contrast to PRC2-free CGI genes which are predominantly regulated by promoter TFBSs. Surprisingly, a large subset of PRC2 -CGI genes that are upregulated in one cancer type are also hypermethylated/silenced in at least one other cancer type, highlighting the high degree of regulatory plasticity likely derived from their complex regulatory patterns during normal development.",
-  "container-title": "Nat. Communications (in press)",
-  "DOI": "10.1101/2020.06.04.134858",
-  "publisher": "Nat. Communications (in press)",
+  "container-title": "Nature Communications",
+  "DOI": "10.1038/s41467-021-22720-0",
+  "volume": "12",
+  "page": "2485",
+  "publisher": "(:unav)",
   "title": "A pan-cancer analysis of CpG Island gene regulation reveals extensive plasticity within Polycomb target genes",
-  "URL": "http://biorxiv.org/lookup/doi/10.1101/2020.06.04.134858"
+  "URL": {
+    "content_version": "vor",
+    "__content__": "https://www.nature.com/articles/s41467-021-22720-0"
+  }
 }
