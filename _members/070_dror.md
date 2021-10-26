@@ -1,9 +1,9 @@
 ---
-name: Dror Bar
-position: Undergraduate CS Student (Past member)
-github: drorbar
+name: Amit Levin
+position: Undergraduate Computational Medicine Student (Past member)
+github:
 twitter:
-photo: dror.png
+photo: amit_face.jpg
 email: 
 ---
 
