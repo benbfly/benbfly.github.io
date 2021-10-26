@@ -1,9 +1,9 @@
 ---
-name: Lior Fishman
-position: Undergraduate CS Student (Past member)
-github: liorfishman
+name: Amit Levin
+position: Undergraduate Computational Medicine student (Past member)
+github:
 twitter: 
-photo: Lior.jpg
+photo: amit-face.jpg
 email: 
 ---
 

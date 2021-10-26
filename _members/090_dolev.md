@@ -3,7 +3,7 @@ name: Dolev Revivo
 position: Undergraduate Computational Medicine student (Past member)
 github:
 twitter:
-photo:
+photo: boy.png
 email: 
 ---
 
