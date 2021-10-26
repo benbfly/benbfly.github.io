@@ -2,7 +2,7 @@
 name: Irene Unterman
 position: Graduate Student
 github: GuIrene
-twitter: 
+twitter: UntIrene
 photo: irene-face-small.jpg
 email: 
 ---
