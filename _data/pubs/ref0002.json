@@ -41,9 +41,9 @@
     ]
   },
   "abstract": "DNA methylation (5mC) is a promising biomarker for detecting circulating tumor DNA (ctDNA), providing information on a cell’s genomic regulation, developmental lineage, and molecular age. Sequencing assays for detecting ctDNA methylation involve pre-processing steps such as immunoprecipitation, enzymatic treatment, or the most common method, sodium bisulfite treatment. These steps add complexity and time that pose a challenge for clinical labs, and bisulfite treatment in particular degrades input DNA and can result in loss of informative ctDNA fragmentation patterns. In this feasibility study, we demonstrate that whole genome sequencing of circulating cell-free DNA using conventional Oxford Nanopore Technologies (ONT) sequencing can accurately detect cell-of-origin and cancer-specific 5mC changes while preserving important fragmentomic information. The simplicity of this approach makes it attractive as a liquid biopsy assay for cancer as well as non-cancer applications in emergency medicine.",
-  "container-title": "Cold Spring Harbor Laboratory",
+  "container-title": "bioRxiv",
   "DOI": "10.1101/2021.10.18.464684",
-  "publisher": "Cold Spring Harbor Laboratory",
+  "publisher": "bioRxiv",
   "title": "Detecting cell-of-origin and cancer-specific features of cell-free DNA with Nanopore sequencing",
   "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.10.18.464684"
 }
