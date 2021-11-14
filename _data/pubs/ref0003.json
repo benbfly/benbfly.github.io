@@ -1,0 +1,56 @@
+{
+  "type": "article-journal",
+  "id": "https://doi.org/10.7554/elife.67085",
+  "author": [
+    {
+      "family": "Unterman",
+      "given": "Irene"
+    },
+    {
+      "family": "Bloch",
+      "given": "Idit"
+    },
+    {
+      "family": "Cazacu",
+      "given": "Simona"
+    },
+    {
+      "family": "Kazimirsky",
+      "given": "Gila"
+    },
+    {
+      "family": "Ben-Zeev",
+      "given": "Bruria"
+    },
+    {
+      "family": "Berman",
+      "given": "Benjamin P"
+    },
+    {
+      "family": "Brodie",
+      "given": "Chaya"
+    },
+    {
+      "family": "Tabach",
+      "given": "Yuval"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        8,
+        6
+      ]
+    ]
+  },
+  "abstract": "Inactivating mutations in the Methyl-CpG Binding Protein 2 (MECP2) gene are the main cause of Rett syndrome (RTT). Despite extensive research into MECP2 function, no treatments for RTT are currently available. Here, we used an evolutionary genomics approach to construct an unbiased MECP2 gene network, using 1028 eukaryotic genomes to prioritize proteins with strong co-evolutionary signatures with MECP2. Focusing on proteins targeted by FDA-approved drugs led to three promising targets, two of which were previously linked to MECP2 function (IRAK, KEAP1) and one that was not (EPOR). The drugs targeting these three proteins (Pacritinib, DMF, and EPO) were able to rescue different phenotypes of MECP2 inactivation in cultured human neural cell types, and appeared to converge on Nuclear Factor Kappa B (NF-κB) signaling in inflammation. This study highlights the potential of comparative genomics to accelerate drug discovery, and yields potential new avenues for the treatment of RTT.",
+  "container-title": "eLife",
+  "DOI": "10.7554/elife.67085",
+  "volume": "10",
+  "page": "e67085",
+  "publisher": "eLife Sciences Publications, Ltd",
+  "title": "Expanding the MECP2 network using comparative genomics reveals potential therapeutic targets for Rett syndrome",
+  "URL": "https://elifesciences.org/articles/67085",
+  "copyright": "Creative Commons Attribution 4.0 International"
+}
