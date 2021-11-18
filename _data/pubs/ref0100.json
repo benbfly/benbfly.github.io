@@ -1,0 +1,71 @@
+{
+  "type": "article-journal",
+  "id": "https://doi.org/10.1038/ng.969",
+  "author": [
+    {
+      "family": "Berman",
+      "given": "Benjamin P"
+    },
+    {
+      "family": "Weisenberger",
+      "given": "Daniel J"
+    },
+    {
+      "family": "Aman",
+      "given": "Joseph F"
+    },
+    {
+      "family": "Hinoue",
+      "given": "Toshinori"
+    },
+    {
+      "family": "Ramjan",
+      "given": "Zachary"
+    },
+    {
+      "family": "Liu",
+      "given": "Yaping"
+    },
+    {
+      "family": "Noushmehr",
+      "given": "Houtan"
+    },
+    {
+      "family": "Lange",
+      "given": "Christopher P E"
+    },
+    {
+      "family": "van Dijk",
+      "given": "Cornelis M"
+    },
+    {
+      "family": "Tollenaar",
+      "given": "Rob A E M"
+    },
+    {
+      "family": "Van Den Berg",
+      "given": "David"
+    },
+    {
+      "family": "Laird",
+      "given": "Peter W"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2011,
+        11,
+        27
+      ]
+    ]
+  },
+  "container-title": "Nature Genetics",
+  "DOI": "10.1038/ng.969",
+  "volume": "44",
+  "issue": "1",
+  "page": "40-46",
+  "publisher": "Springer Science and Business Media LLC",
+  "title": "Regions of focal DNA hypermethylation and long-range hypomethylation in colorectal cancer coincide with nuclear lamina–associated domains",
+  "URL": "http://www.nature.com/articles/ng.969"
+}
