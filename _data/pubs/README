@@ -13,3 +13,6 @@ curl -LH "Accept: application/vnd.citationstyles.csl+json" https://doi.org/10.10
 
 # Putting this URL into the browser seems to work
 https://data.datacite.org/application/vnd.citationstyles.csl+json/10.1158/0008-5472.CAN-20-0390
+
+# Now the webbrowser doesn't seem to work. Trying this instead
+curl -LH "Accept: application/x-bibtex;q=0.5, application/vnd.citationstyles.csl+json;q=1.0" https://doi.org/10.1186/s13059-022-02710-1 > ref0002.json
