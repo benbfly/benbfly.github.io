@@ -10,7 +10,7 @@ author: benbfly
 {% for job in site.jobs %}
 <div class="card">
   <div class="card-content">
-    <h4 class="card-title">{{ job.title }}</h4>
+    <h4 class="card-title">{{ job.jobtitle }}</h4>
     <div class="card-description">
       {{job.content | markdownify }}
     </div>
