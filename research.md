@@ -4,19 +4,21 @@ title: Research
 author: benbfly
 ---
 
-<div class="research-projects">
+<link rel="stylesheet" href="{{ '/assets/css/cards.css' | relative_url }}">
+
+<div class="content-container">
 {% for project in site.projects %}
-<div class="project-card mb-4">
+<div class="card">
   <div class="row g-0">
     <div class="col-md-4">
-      <div class="project-image">
+      <div class="card-image">
         <img src="{{ project.image }}" class="img-fluid rounded" alt="{{ project.title }}">
       </div>
     </div>
     <div class="col-md-8">
-      <div class="project-content p-3">
-        <h4 class="project-title">{{ project.title }}</h4>
-        <div class="project-description">
+      <div class="card-content">
+        <h4 class="card-title">{{ project.title }}</h4>
+        <div class="card-description">
           {{project.content | markdownify }}
         </div>
       </div>

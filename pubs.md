@@ -4,12 +4,9 @@ title: Publications
 author: benbfly
 ---
 
-<style>
-body {
-  background-color: #f0f2f5;
-}
-</style>
+<link rel="stylesheet" href="{{ '/assets/css/cards.css' | relative_url }}">
 
+<div class="content-container">
 {% assign ordered_pubs = site.data.pubs | sort | reverse %}
 {% assign full_pubs_scholar = "https://scholar.google.com/citations?user=GnZNoE4AAAAJ" %}
 {% assign pub_count = 0 %}
@@ -25,90 +22,40 @@ body {
 <BR>
 
 {% for pub in ordered_pubs %}
-{% if pub.type %}
-
-{% comment %}
-Zhou W, Dinh H, Ramjan Z, Weisenberger DJ, Nicolet CM, Shen H*, Laird PW*, Berman BP*. "DNA methylation loss in late-replicating domains is linked to mitotic cell divisions". Nat. Genet., 2018 50(4);591-602.
-{% endcomment %}
-
-<div class="card text-white bg-primary mb-3" id="cite{{forloop.index}}">
-  <div class="card-body">
-       <p class="card-text" id="citetext{{forloop.index}}">
-     {{pub.author[0].family}}, {{pub.author[0].given}} et al. "{{pub.title}}". <em>{{pub.container-title}}</em>, <B>{{pub.issued.date-parts[0][0]}}</B>
-     doi:<a target="_blank" href="https://doi.org/{{pub.DOI}}">{{pub.DOI}}</a>
-     <span class="__dimensions_badge_embed__" id="badge{{forloop.index}}" data-doi="{{pub.DOI}}" data-style="small_rectangle"></span>
-     </p>
+  {% if pub.type %}
+  <div class="card text-white bg-primary" id="cite{{forloop.index}}">
+    <div class="card-body">
+      <p class="card-text" id="citetext{{forloop.index}}">
+        {% for author in pub.author %}
+          {% if author.family == "Berman" and author.given == "Benjamin P." %}
+            <strong>{{ author.given }} {{ author.family }}</strong>{% unless forloop.last %}, {% endunless %}
+          {% else %}
+            {{ author.given }} {{ author.family }}{% unless forloop.last %}, {% endunless %}
+          {% endif %}
+        {% endfor %}
+        "{{ pub.title }}". 
+        {% if pub.container-title %}
+          <em>{{ pub.container-title }}</em>
+        {% endif %}
+        {% if pub.volume %}
+          {{ pub.volume }}
+        {% endif %}
+        {% if pub.issue %}
+          ({{ pub.issue }})
+        {% endif %}
+        {% if pub.page %}
+          :{{ pub.page }}
+        {% endif %}
+        {% if pub.issued.date-parts[0][0] %}
+          <b>{{ pub.issued.date-parts[0][0] }}</b>
+        {% endif %}
+        {% if pub.DOI %}
+          doi:<a target="_blank" href="https://doi.org/{{ pub.DOI }}">{{ pub.DOI }}</a>
+          <span class="__dimensions_badge_embed__" id="badge{{forloop.index}}" data-doi="{{ pub.DOI }}" data-style="small_rectangle"></span>
+        {% endif %}
+      </p>
+    </div>
   </div>
-</div>
-
-{% endif %}
+  {% endif %}
 {% endfor %}
-
-
-
-
-
-
-{% comment %}
-<!--------------- OLD ------------->
-
-<!-- DOIs -->
-{% assign dois = "10.1093/bioinformatics/bty902, 10.1038/S41588-018-0073-4, 10.1136/GUTJNL-2017-314607, 10.1161/CIRCULATIONAHA.116.024590, 10.1038/NG.3683, 10.1186/S13059-015-0668-3, 10.1101/GR.183368.114, 10.1101/GR.143008.112, 10.1186/GB-2012-13-7-R61" | split: ", " %}
-
-<!-- Wikidata -->
-
-{% assign wikiids = "Q58604702, Q52722157, Q38599134, Q38836140, Q37452434, Q35702332, Q35238256, Q36446228, Q34333346" | split: ", " %}
-
-
-{% for pubid in pubids %}
-
-{% comment %}
-****Cite and opts are defined in head.html****
-{% endcomment %}
-
-{% comment %}
-<div class="card text-white bg-primary mb-3">
-  <div class="card-body">
-  <div class="citation-js cite" data-input="Q21972834">This text can now be ignored</div>
-  </div>
 </div>
-{% endcomment %}
-
-
-<div class="card text-white bg-primary mb-3">
-  <div class="card-body">
-  <p class="card-text" id="cite{{forloop.index}}"></p>
-  </div>
-</div>
-<script class="code">
-     Cite.async('{{pubid}}', function(example) {
-     htmlOutput =  example.get(opt)
-     $('#cite{{forloop.index}}').html(htmlOutput)
-{% comment %}
-     window.__dimensions_embed.addBadges()
-{% endcomment %}
-
-   })
-</script>
-
-
-{% comment %}
-<div class="card text-white bg-primary mb-3">
-  <div class="card-body">
-    <p class="card-text" id="{{pubid}}"></p>
-  </div>
-</div>
-<script class="code">
-     Cite.async('{{pubid}}', function(wikidata) {
-     htmlOutput =  wikidata.get(opt)
-     $('#{{pubid}}').html(htmlOutput)
-     _altmetric_embed_init()
-   })
-</script>
-{% endcomment %}
-
-
-{% endfor %}
-
-
-{% endcomment %}

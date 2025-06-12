@@ -4,28 +4,40 @@ title: People
 author: benbfly
 ---
 
-<style>
-body {
-  background-color: #f0f2f5;
-}
-</style>
+<link rel="stylesheet" href="{{ '/assets/css/cards.css' | relative_url }}">
 
+<div class="content-container people-page">
 {% for member in site.members %}
-  <h4>{{ member.name }} - {{ member.position }}</h4>
-  <p><img class="img-thumbnail" width="100" src="assets/images/{{ member.photo }}"></p>
-  <p>{{ member.content | markdownify }}</p>
-  <p>
-{% if member.twitter %}
-  Twitter: <a target="_blank" href="http://twitter.com/{{ member.twitter }}">@{{ member.twitter }}</a><BR>
-{% endif %}
-{% if member.github %}
-  GitHub: <a target="_blank" href="http://github.com/{{ member.github }}">{{ member.github }}</a><BR>
-{% endif %}
-{% if member.email %}
-  Email: {{ member.email }}<BR>
-{% endif %}
-</p>
+<div class="card">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <div class="card-image">
+        <img src="assets/images/{{ member.photo }}" class="img-fluid rounded" alt="{{ member.name }}">
+      </div>
+    </div>
+    <div class="col-md-8">
+      <div class="card-content">
+        <h4 class="card-title">{{ member.name }} - {{ member.position }}</h4>
+        <div class="card-description">
+          {{member.content | markdownify }}
+          <p>
+          {% if member.twitter %}
+            Twitter: <a target="_blank" href="http://twitter.com/{{ member.twitter }}">@{{ member.twitter }}</a><BR>
+          {% endif %}
+          {% if member.github %}
+            GitHub: <a target="_blank" href="http://github.com/{{ member.github }}">{{ member.github }}</a><BR>
+          {% endif %}
+          {% if member.email %}
+            Email: {{ member.email }}<BR>
+          {% endif %}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 {% endfor %}
+</div>
 
 
 <!--

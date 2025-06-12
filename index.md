@@ -1,6 +1,6 @@
 ---
-layout: home
-title: Home
+layout: default
+title: About
 author: benbfly
 ---
 
