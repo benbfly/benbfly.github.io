@@ -1,4 +1,5 @@
 _site
+_nbibs
 .sass-cache
 .jekyll-metadata
 node_modules

@@ -1,0 +1,50 @@
+{
+  "type": "article-journal",
+  "id": "https://doi.org/10.1101/gr.183368.114",
+  "author": [
+    {
+      "family": "Lay",
+      "given": "Fides D."
+    },
+    {
+      "family": "Liu",
+      "given": "Yaping"
+    },
+    {
+      "family": "Kelly",
+      "given": "Theresa K."
+    },
+    {
+      "family": "Witt",
+      "given": "Heather"
+    },
+    {
+      "family": "Farnham",
+      "given": "Peggy J."
+    },
+    {
+      "family": "Jones",
+      "given": "Peter A."
+    },
+    {
+      "family": "Berman",
+      "given": "Benjamin P."
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2015,
+        4
+      ]
+    ]
+  },
+  "container-title": "Genome Research",
+  "DOI": "10.1101/gr.183368.114",
+  "volume": "25",
+  "issue": "4",
+  "page": "467-477",
+  "publisher": "(:unav)",
+  "title": "The role of DNA methylation in directing the functional organization of the cancer epigenome",
+  "URL": "http://genome.cshlp.org/lookup/doi/10.1101/gr.183368.114"
+}

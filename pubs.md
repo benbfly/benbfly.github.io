@@ -4,23 +4,19 @@ title: Publications
 author: benbfly
 ---
 
-{% assign ordered_pubs = site.data.pubs | sort %}
+{% assign ordered_pubs = site.data.pubs | sort | reverse %}
 {% assign full_pubs_scholar = "https://scholar.google.com/citations?user=GnZNoE4AAAAJ" %}
-{% assign full_pubs_pubmed = "https://www.ncbi.nlm.nih.gov/myncbi/benjamin.berman.1/bibliography/public/" %}
 
 <h4>
-{{ ordered_pubs | size }} core papers selected from 77 peer-reviewed Berman lab publications. A complete list of publications is available at my <a target="_blank" href="{{full_pubs_scholar}}">Google Scholar page</a> or my <a target="_blank" href="{{full_pubs_pubmed}}">PubMed page</a>.
+17 core papers selected from 77 peer-reviewed Berman lab publications. A complete list of publications is available at my <a target="_blank" href="{{full_pubs_scholar}}">Google Scholar page</a>.
 </h4>
 <BR>
 
-{% for pub_hash in ordered_pubs %}
-{% assign pub = pub_hash[1] %}
-
+{% for pub in ordered_pubs %}
 {% if pub.type %}
 
-
 {% comment %}
-Zhou W, Dinh H, Ramjan Z, Weisenberger DJ, Nicolet CM, Shen H*, Laird PW*, Berman BP*. “DNA methylation loss in late-replicating domains is linked to mitotic cell divisions”. Nat. Genet., 2018 50(4);591-602.
+Zhou W, Dinh H, Ramjan Z, Weisenberger DJ, Nicolet CM, Shen H*, Laird PW*, Berman BP*. "DNA methylation loss in late-replicating domains is linked to mitotic cell divisions". Nat. Genet., 2018 50(4);591-602.
 {% endcomment %}
 
 <div class="card text-white bg-primary mb-3" id="cite{{forloop.index}}">

@@ -1,55 +1,58 @@
 {
   "type": "article-journal",
-  "id": "https://doi.org/10.1161/circulationaha.116.024590",
+  "id": "https://doi.org/10.1038/s41588-018-0073-4",
   "author": [
     {
-      "family": "de Couto",
-      "given": "Geoffrey"
+      "family": "Zhou",
+      "given": "Wanding"
     },
     {
-      "family": "Gallet",
-      "given": "Romain"
+      "family": "Dinh",
+      "given": "Huy Q."
     },
     {
-      "family": "Cambier",
-      "given": "Linda"
+      "family": "Ramjan",
+      "given": "Zachary"
     },
     {
-      "family": "Jaghatspanyan",
-      "given": "Ervin"
+      "family": "Weisenberger",
+      "given": "Daniel J."
     },
     {
-      "family": "Makkar",
-      "given": "Nupur"
+      "family": "Nicolet",
+      "given": "Charles M."
     },
     {
-      "family": "Dawkins",
-      "given": "James Frederick"
+      "family": "Shen",
+      "given": "Hui"
+    },
+    {
+      "family": "Laird",
+      "given": "Peter W."
     },
     {
       "family": "Berman",
       "given": "Benjamin P."
-    },
-    {
-      "family": "Marbán",
-      "given": "Eduardo"
     }
   ],
   "issued": {
     "date-parts": [
       [
-        2017,
-        7,
-        11
+        2018,
+        4,
+        2
       ]
     ]
   },
-  "container-title": "Circulation",
-  "DOI": "10.1161/CIRCULATIONAHA.116.024590",
-  "volume": "136",
-  "issue": "2",
-  "page": "200-214",
-  "publisher": "Ovid Technologies (Wolters Kluwer Health)",
-  "title": "Exosomal MicroRNA Transfer Into Macrophages Mediates Cellular Postconditioning",
-  "URL": "https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.116.024590"
+  "container-title": "Nature Genetics",
+  "DOI": "10.1038/s41588-018-0073-4",
+  "volume": "50",
+  "issue": "4",
+  "page": "591-602",
+  "publisher": "(:unav)",
+  "title": "DNA methylation loss in late-replicating domains is linked to mitotic cell division",
+  "URL": {
+    "content_version": "vor",
+    "__content__": "http://www.nature.com/articles/s41588-018-0073-4"
+  }
 }

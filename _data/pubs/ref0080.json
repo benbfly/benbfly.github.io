@@ -1,47 +1,58 @@
 {
   "type": "article-journal",
-  "id": "https://doi.org/10.1101/gr.143008.112",
+  "id": "https://doi.org/10.1038/s41467-021-22720-0",
   "author": [
     {
-      "family": "Kelly",
-      "given": "T. K."
+      "family": "Zheng",
+      "given": "Yueyuan"
     },
     {
-      "family": "Liu",
-      "given": "Y."
+      "family": "Huang",
+      "given": "Guowei"
     },
     {
-      "family": "Lay",
-      "given": "F. D."
+      "family": "Silva",
+      "given": "Tiago C."
     },
     {
-      "family": "Liang",
-      "given": "G."
+      "family": "Yang",
+      "given": "Qian"
+    },
+    {
+      "family": "Jiang",
+      "given": "Yan-Yi"
+    },
+    {
+      "family": "Koeffler",
+      "given": "H Phillip"
+    },
+    {
+      "family": "Lin",
+      "given": "De-Chen"
     },
     {
       "family": "Berman",
-      "given": "B. P."
-    },
-    {
-      "family": "Jones",
-      "given": "P. A."
+      "given": "Benjamin P."
     }
   ],
   "issued": {
     "date-parts": [
       [
-        2012,
-        9,
-        7
+        2021,
+        4,
+        4
       ]
     ]
   },
-  "container-title": "Genome Research",
-  "DOI": "10.1101/gr.143008.112",
-  "volume": "22",
-  "issue": "12",
-  "page": "2497-2506",
+  "abstract": "CpG Island promoter genes make up more than half of human genes, and a subset regulated by Polycomb-Repressive Complex 2 (PRC2 -CGI) become DNA methylated and silenced in cancer. Here, we perform a systematic regulatory analysis of CGI genes across TCGA cancer types, finding that PRC2 -CGI genes are frequently prone to transcriptional upregulation as well. These upregulated PRC2 -CGI genes control important pathways such as Epithelial-Mesenchymal Transition and TNFα-associated inflammatory response, and have the greatest cancer-type specificity among any class of CGI genes. Using publicly available chromatin datasets and genetic perturbations, we show that transcription factor binding sites (TFBSs) within distal enhancers underlie transcriptional activation of PRC2 -CGI genes, in contrast to PRC2-free CGI genes which are predominantly regulated by promoter TFBSs. Surprisingly, a large subset of PRC2 -CGI genes that are upregulated in one cancer type are also hypermethylated/silenced in at least one other cancer type, highlighting the high degree of regulatory plasticity likely derived from their complex regulatory patterns during normal development.",
+  "container-title": "Nature Communications",
+  "DOI": "10.1038/s41467-021-22720-0",
+  "volume": "12",
+  "page": "2485",
   "publisher": "(:unav)",
-  "title": "Genome-wide mapping of nucleosome positioning and DNA methylation within individual DNA molecules",
-  "URL": "http://genome.cshlp.org/cgi/doi/10.1101/gr.143008.112"
+  "title": "A pan-cancer analysis of CpG Island gene regulation reveals extensive plasticity within Polycomb target genes",
+  "URL": {
+    "content_version": "vor",
+    "__content__": "https://www.nature.com/articles/s41467-021-22720-0"
+  }
 }
