@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Tools
 author: benbfly
 ---
 
