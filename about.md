@@ -4,6 +4,12 @@ title: News
 author: benbfly
 ---
 
+<style>
+body {
+  background-color: #f0f2f5;
+}
+</style>
+
 <ul>
   {% for post in site.posts %}
     <li>

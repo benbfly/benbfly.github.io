@@ -4,6 +4,12 @@ title: People
 author: benbfly
 ---
 
+<style>
+body {
+  background-color: #f0f2f5;
+}
+</style>
+
 {% for member in site.members %}
   <h4>{{ member.name }} - {{ member.position }}</h4>
   <p><img class="img-thumbnail" width="100" src="assets/images/{{ member.photo }}"></p>

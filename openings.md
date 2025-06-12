@@ -1,8 +1,14 @@
 ---
 layout: page
-title: Current Openings
+title: Openings
 author: benbfly
 ---
+
+<style>
+body {
+  background-color: #f0f2f5;
+}
+</style>
 
 {% for job in site.jobs %}
 

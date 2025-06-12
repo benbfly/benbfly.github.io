@@ -4,6 +4,12 @@ title: Publications
 author: benbfly
 ---
 
+<style>
+body {
+  background-color: #f0f2f5;
+}
+</style>
+
 {% assign ordered_pubs = site.data.pubs | sort | reverse %}
 {% assign full_pubs_scholar = "https://scholar.google.com/citations?user=GnZNoE4AAAAJ" %}
 {% assign pub_count = 0 %}
