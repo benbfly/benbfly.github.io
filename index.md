@@ -4,6 +4,12 @@ title: About
 author: benbfly
 ---
 
+<style>
+body {
+  background-color: #f0f2f5;
+}
+</style>
+
 <div class="row">
      <div class="col-lg-4">
      	  <div class="bs-component">

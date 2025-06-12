@@ -36,8 +36,8 @@ header_pages:
   - people.md
   - research.md
   - pubs.md
-  - teaching.md
-  - tools.md
+#  - teaching.md
+#  - tools.md
   - credits.md
   - contact.md
 

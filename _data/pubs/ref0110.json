@@ -1,0 +1,48 @@
+{
+  "type": "article-journal",
+  "id": "https://doi.org/10.1186/s13059-024-03275-x",
+  "author": [
+    {
+      "family": "Unterman",
+      "given": "Irene"
+    },
+    {
+      "family": "Avrahami",
+      "given": "Dana"
+    },
+    {
+      "family": "Katsman",
+      "given": "Efrat"
+    },
+    {
+      "family": "Triche",
+      "given": "Timothy J."
+    },
+    {
+      "family": "Glaser",
+      "given": "Benjamin"
+    },
+    {
+      "family": "Berman",
+      "given": "Benjamin P."
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2024,
+        6,
+        10
+      ]
+    ]
+  },
+  "container-title": "Genome Biology",
+  "DOI": "10.1186/s13059-024-03275-x",
+  "volume": "25",
+  "issue": "1",
+  "page": "151",
+  "publisher": "BioMed Central",
+  "title": "CelFiE-ISH: a probabilistic model for multi-cell type deconvolution from single-molecule DNA methylation haplotypes",
+  "URL": "https://doi.org/10.1186/s13059-024-03275-x",
+  "abstract": "Deconvolution methods infer quantitative cell type estimates from bulk measurement of mixed samples including blood and tissue. DNA methylation sequencing measures multiple CpGs per read, but few existing deconvolution methods leverage this within-read information. We develop CelFiE-ISH, which extends an existing method (CelFiE) to use within-read haplotype information. CelFiE-ISH outperforms CelFiE and other existing methods, achieving 30% better accuracy and more sensitive detection of rare cell types. We also demonstrate the importance of marker selection and of tailoring markers for haplotype-aware methods. While here we use gold-standard short-read sequencing data, haplotype-aware methods will be well-suited for long-read sequencing."
+} 

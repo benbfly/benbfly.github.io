@@ -4,6 +4,12 @@ title: Contact
 author: benbfly
 ---
 
+<style>
+body {
+  background-color: #f0f2f5;
+}
+</style>
+
 ![HUJI logo](assets/images/Facmed-horizontal-english.jpg){:height="45%" width="45%"}
 
 Ben Berman Lab  

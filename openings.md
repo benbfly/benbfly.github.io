@@ -1,16 +1,20 @@
 ---
 layout: page
-title: Current Openings
+title: Openings
 author: benbfly
 ---
 
-{% for job in site.jobs %}
+<link rel="stylesheet" href="{{ '/assets/css/cards.css' | relative_url }}">
 
-<div class="card text-white bg-info mb-3" style="max-width: 60rem;">
-  <div class="card-header" id="jobheader">{{job.jobtitle}}</div>
-  <div class="card-body">
-    <p class="card-text" id="content">{{ job.content | markdownify }}</p>
+<div class="content-container">
+{% for job in site.jobs %}
+<div class="card">
+  <div class="card-content">
+    <h4 class="card-title">{{ job.jobtitle }}</h4>
+    <div class="card-description">
+      {{job.content | markdownify }}
+    </div>
   </div>
 </div>
-
 {% endfor %}
+</div>

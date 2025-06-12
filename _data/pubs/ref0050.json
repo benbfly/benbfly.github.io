@@ -1,95 +1,59 @@
 {
   "type": "article-journal",
-  "id": "https://doi.org/10.1038/ng.3683",
+  "id": "https://doi.org/10.1093/bioinformatics/bty902",
   "author": [
     {
-      "family": "Hao",
-      "given": "Jia-Jie"
+      "family": "Silva",
+      "given": "Tiago C"
+    },
+    {
+      "family": "Coetzee",
+      "given": "Simon G"
+    },
+    {
+      "family": "Gull",
+      "given": "Nicole"
+    },
+    {
+      "family": "Yao",
+      "given": "Lijing"
+    },
+    {
+      "family": "Hazelett",
+      "given": "Dennis J"
+    },
+    {
+      "family": "Noushmehr",
+      "given": "Houtan"
     },
     {
       "family": "Lin",
       "given": "De-Chen"
     },
     {
-      "family": "Dinh",
-      "given": "Huy Q"
-    },
-    {
-      "family": "Mayakonda",
-      "given": "Anand"
-    },
-    {
-      "family": "Jiang",
-      "given": "Yan-Yi"
-    },
-    {
-      "family": "Chang",
-      "given": "Chen"
-    },
-    {
-      "family": "Jiang",
-      "given": "Ye"
-    },
-    {
-      "family": "Lu",
-      "given": "Chen-Chen"
-    },
-    {
-      "family": "Shi",
-      "given": "Zhi-Zhou"
-    },
-    {
-      "family": "Xu",
-      "given": "Xin"
-    },
-    {
-      "family": "Zhang",
-      "given": "Yu"
-    },
-    {
-      "family": "Cai",
-      "given": "Yan"
-    },
-    {
-      "family": "Wang",
-      "given": "Jin-Wu"
-    },
-    {
-      "family": "Zhan",
-      "given": "Qi-Min"
-    },
-    {
-      "family": "Wei",
-      "given": "Wen-Qiang"
-    },
-    {
       "family": "Berman",
       "given": "Benjamin P"
-    },
+    }
+  ],
+  "contributor": [
     {
-      "family": "Wang",
-      "given": "Ming-Rong"
-    },
-    {
-      "family": "Koeffler",
-      "given": "H Phillip"
+      "contributorType": "Editor",
+      "family": "Stegle",
+      "given": "Oliver"
     }
   ],
   "issued": {
     "date-parts": [
       [
-        2016,
-        10,
-        17
+        2019,
+        6,
+        1
       ]
     ]
   },
-  "container-title": "Nature Genetics",
-  "DOI": "10.1038/ng.3683",
-  "volume": "48",
-  "issue": "12",
-  "page": "1500-1507",
+  "container-title": "Bioinformatics",
+  "DOI": "10.1093/bioinformatics/bty902",
   "publisher": "(:unav)",
-  "title": "Spatial intratumoral heterogeneity and temporal clonal evolution in esophageal squamous cell carcinoma",
-  "URL": "http://www.nature.com/articles/ng.3683"
+  "title": "ELMER v.2: an R/Bioconductor package to reconstruct gene regulatory networks from DNA methylation and transcriptome profiles",
+  "URL": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty902/5145133"
 }
