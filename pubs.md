@@ -27,7 +27,7 @@ author: benbfly
     <div class="card-body">
       <p class="card-text" id="citetext{{forloop.index}}">
         {% for author in pub.author %}
-          {% if author.family == "Berman" and author.given == "Benjamin P." %}
+          {% if author.family == "Berman" and author.given contains "Benjamin P" %}
             <strong>{{ author.given }} {{ author.family }}</strong>{% unless forloop.last %}, {% endunless %}
           {% else %}
             {{ author.given }} {{ author.family }}{% unless forloop.last %}, {% endunless %}

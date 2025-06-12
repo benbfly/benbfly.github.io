@@ -1,6 +1,6 @@
 ---
 name: Yonatan Berg
-position: MD Student (Past member)
+position: MD Student
 github: 
 twitter: 
 photo: yoni.jpg

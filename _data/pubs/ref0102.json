@@ -1,0 +1,48 @@
+{
+  "type": "article-journal",
+  "id": "ref0102",
+  "author": [
+    {
+      "given": "Dror",
+      "family": "Bar"
+    },
+    {
+      "given": "Lior",
+      "family": "Fishman"
+    },
+    {
+      "given": "Yueyuan",
+      "family": "Zheng"
+    },
+    {
+      "given": "Irene",
+      "family": "Unterman"
+    },
+    {
+      "given": "Devorah",
+      "family": "Schlesinger"
+    },
+    {
+      "given": "Amir",
+      "family": "Eden"
+    },
+    {
+      "given": "De-Chen",
+      "family": "Lin"
+    },
+    {
+      "given": "Benjamin P.",
+      "family": "Berman"
+    }
+  ],
+  "title": "A local sequence signature defines a subset of heterochromatin-associated CpGs with minimal loss of methylation in healthy tissues but extensive loss in cancer",
+  "container-title": "bioRxiv",
+  "issued": {
+    "date-parts": [
+      [2022]
+    ]
+  },
+  "DOI": "10.1101/2022.08.16.504069",
+  "URL": "https://www.biorxiv.org/content/early/2022/08/17/2022.08.16.504069",
+  "abstract": "Global loss of DNA methylation in mammalian genomes occurs during aging and cancer, primarily in heterochromatin-associated Partially Methylated Domains (PMDs). It has previously been shown that local sequence context (100bp) has a strong influence on the rate of demethylation of individual CpG dinucleotides within PMDs. Here, we train a deep learning model to capture this sequence dependence, finding that methylation loss in healthy tissues and cancer can be predicted with high accuracy based on the 150bp surrounding a CpG. We use a published whole-genome map of the re-methylation rate of newly synthesized DNA during mitosis to show that CpGs with a \"slow-loss\" sequence context are efficiently re-methylated, while CpGs with a \"fast-loss\" sequence context are inefficiently re-methylated. Intriguingly, we find that the 10% most slow-loss CpGs lose almost no DNA methylation in healthy cell types, but lose significant DNA methylation in many cancer types. This finding suggests that loss of DNA methylation at slow-loss CpGs could underlie some cancer-specific transcriptional deregulation that has been linked to DNA hypomethylation, including the derepression of cancer antigens and transposable elements."
+} 

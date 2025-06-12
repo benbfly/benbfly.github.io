@@ -1,0 +1,36 @@
+{
+  "type": "article-journal",
+  "id": "ref0107",
+  "author": [
+    {
+      "given": "Benjamin P.",
+      "family": "Berman"
+    },
+    {
+      "given": "Sarah A.",
+      "family": "Erdman"
+    },
+    {
+      "given": "Jean-Valery",
+      "family": "Turatsinze"
+    },
+    {
+      "given": "Justin",
+      "family": "Cayford"
+    },
+    {
+      "given": "Theresa K.",
+      "family": "Kelly"
+    }
+  ],
+  "title": "Long-read sequencing reveals aberrant fragmentation patterns and origins of circulating DNA in cancer",
+  "container-title": "bioRxiv",
+  "issued": {
+    "date-parts": [
+      [2024]
+    ]
+  },
+  "DOI": "10.1101/2024.05.02.592182",
+  "URL": "https://www.biorxiv.org/content/early/2024/05/05/2024.05.02.592182",
+  "abstract": "Circulating cell-free DNA (cfDNA), which includes tumor and immune-derived fragments, is often elevated in cancer patients relative to healthy individuals. This can be accompanied by changes in cfDNA fragmentation patterns, including fragment length distributions, fragment end sequences, and genomic context. Here, we survey fragmentation changes across 12 cancer types using Oxford Nanopore Technologies (ONT) shallow whole-genome sequencing. We confirm a hyperfragmentation pattern across a large fraction of the cancers and associate this with markers of altered DNase activity and elevation of circulating DNA and nucleosome levels. We also identify a cluster of cancers with fragments greater than 1 kilobase and distinguish these long fragments from genomic contamination based on length distribution and a DNASE1L3 fragmentation signature. Future studies using ONT sequencing will determine the prevalence and implications of this hypofragmentation phenotype across cancer."
+} 
