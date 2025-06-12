@@ -1,0 +1,56 @@
+{
+  "type": "article-journal",
+  "id": "37620896",
+  "author": [
+    {
+      "family": "Zheng",
+      "given": "Yueyuan"
+    },
+    {
+      "family": "Ziman",
+      "given": "Benjamin"
+    },
+    {
+      "family": "Ho",
+      "given": "Allen S"
+    },
+    {
+      "family": "Sinha",
+      "given": "Uttam K"
+    },
+    {
+      "family": "Xu",
+      "given": "Li-Yan"
+    },
+    {
+      "family": "Li",
+      "given": "En-Min"
+    },
+    {
+      "family": "Koeffler",
+      "given": "H Phillip"
+    },
+    {
+      "family": "Berman",
+      "given": "Benjamin P"
+    },
+    {
+      "family": "Lin",
+      "given": "De-Chen"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [2023, 8, 24]
+    ]
+  },
+  "container-title": "Genome Biology",
+  "DOI": "10.1186/s13059-023-03035-3",
+  "volume": "24",
+  "issue": "1",
+  "page": "193",
+  "publisher": "BioMed Central",
+  "title": "Comprehensive analyses of partially methylated domains and differentially methylated regions in esophageal cancer reveal both cell-type- and cancer-specific epigenetic regulation",
+  "URL": "https://doi.org/10.1186/s13059-023-03035-3",
+  "abstract": "BACKGROUND: As one of the most common malignancies, esophageal cancer has two subtypes, squamous cell carcinoma and adenocarcinoma, arising from distinct cells-of-origin. Distinguishing cell-type-specific molecular features from cancer-specific characteristics is challenging. RESULTS: We analyze whole-genome bisulfite sequencing data on 45 esophageal tumor and nonmalignant samples from both subtypes. We develop a novel sequence-aware method to identify large partially methylated domains (PMDs), revealing profound heterogeneity at both methylation level and genomic distribution of PMDs across tumor samples. We identify subtype-specific PMDs that are associated with repressive transcription, chromatin B compartments and high somatic mutation rate. While genomic locations of these PMDs are pre-established in normal cells, the degree of loss is significantly higher in tumors. We find that cell-type-specific deposition of H3K36me2 may underlie genomic distribution of PMDs. At a smaller genomic scale, both cell-type- and cancer-specific differentially methylated regions (DMRs) are identified for each subtype. Using binding motif analysis within these DMRs, we show that a cell-type-specific transcription factor HNF4A maintains the binding sites that it generates in normal cells, while establishing new binding sites cooperatively with novel partners such as FOSL1 in esophageal adenocarcinoma. Finally, leveraging pan-tissue single-cell and pan-cancer epigenomic datasets, we demonstrate that a substantial fraction of cell-type-specific PMDs and DMRs identified here in esophageal cancer are actually markers that co-occur in other cancers originating from related cell types. CONCLUSIONS: These findings advance our understanding of DNA methylation dynamics at various genomic scales in normal and malignant states, providing novel mechanistic insights into cell-type- and cancer-specific epigenetic regulations."
+} 

@@ -6,9 +6,15 @@ author: benbfly
 
 {% assign ordered_pubs = site.data.pubs | sort | reverse %}
 {% assign full_pubs_scholar = "https://scholar.google.com/citations?user=GnZNoE4AAAAJ" %}
+{% assign pub_count = 0 %}
+{% for pub in ordered_pubs %}
+  {% if pub.type %}
+    {% assign pub_count = pub_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
 
 <h4>
-17 core papers selected from 77 peer-reviewed Berman lab publications. A complete list of publications is available at my <a target="_blank" href="{{full_pubs_scholar}}">Google Scholar page</a>.
+{{ pub_count }} core papers selected from 80 peer-reviewed Berman lab publications. A complete list of publications is available at my <a target="_blank" href="{{full_pubs_scholar}}">Google Scholar page</a>.
 </h4>
 <BR>
 
