@@ -3,15 +3,16 @@ layout: page
 jobtitle: Bioinformatics Students
 ---
 
-We are seeking motivated students at both undergraduate and graduate levels to join our bioinformatics research team. The positions involve analyzing genomic sequencing data and developing computational tools.
+We accept motivated students at both undergraduate and graduate levels to join our bioinformatics research team. Positions involve analyzing genomic sequencing data and developing computational tools.
 
 #### Requirements
-- Programming experience in R and/or Python
-- For undergraduates: 3rd year or higher
+- Programming experience with agent-based tools
 - For graduates: MSc or PhD students
+- For undergraduates: 3rd year or higher
 
 #### Preferred
-- Coursework or research in bioinformatics
+- Knowledge of gene regulation and epigenetics
+- Basic programming (Python, R) and bioinformatics
 - Familiarity with cluster computing and workflow systems (Nextflow, snakemake)
 
 #### Responsibilities
