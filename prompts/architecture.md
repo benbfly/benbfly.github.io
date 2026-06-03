@@ -8,7 +8,11 @@ Static Jekyll site for MethylGrammarLab, deployed as GitHub Pages for `methylgra
 
 ## Runtime And Dependencies
 
-- Ruby/Jekyll via `Gemfile`; the primary dependency is the `github-pages` gem.
+- Ruby/Jekyll via `Gemfile`; `.ruby-version` pins local development to Ruby `3.3.4`, matching the current GitHub Pages runtime.
+- The primary dependency is the `github-pages` gem; local `bundle install` currently resolves `github-pages 232` and Jekyll `3.10.0`.
+- Local Ruby is provided by `rbenv` under `/Users/benbfly/.rbenv`; `~/.zshrc` initializes rbenv so fresh zsh shells use `.ruby-version` automatically.
+- The local Ruby was compiled with ruby-build, local OpenSSL, and local libyaml so native gems build for arm64 macOS instead of relying on Apple system Ruby.
+- These local Ruby/rbenv changes do not affect GitHub Pages hosting. GitHub Pages builds with GitHub's own runtime; `.ruby-version` is a local development hint.
 - `_config.yml` enables `jekyll-feed` and `jekyll-sitemap`; templates also use `{% seo %}`, so the GitHub Pages stack is expected to provide `jekyll-seo-tag`.
 - CSS is compiled from `assets/main.scss`, which imports vendored Bootstrap 4 Sass, Bootstrap-4-Jekyll helpers, syntax highlighting, and local customization.
 - Bootstrap and jQuery browser assets are vendored under `_sass/bootstrap/` and `assets/javascript/bootstrap/`; `update_bootstrap.sh` refreshes them with npm.
@@ -36,6 +40,7 @@ Static Jekyll site for MethylGrammarLab, deployed as GitHub Pages for `methylgra
 
 ## Build And Deployment
 
-- Local build/serve: `bundle exec jekyll build` or `bundle exec jekyll serve`.
+- Local build/serve: open a fresh shell with rbenv initialized, `cd /Users/benbfly/Documents/benbfly.github.io`, then run `bundle exec jekyll build` or `bundle exec jekyll serve`.
+- The normal preview URL is `http://127.0.0.1:4000`; the in-app browser can be used to inspect it before commits.
 - `.travis.yml` runs Ruby 2.2 and `bundle exec jekyll build`.
 - `.gitignore` excludes generated build/dependency outputs including `_site`, `.sass-cache`, `.jekyll-metadata`, `node_modules`, `package-lock.json`, and `Gemfile.lock`.
