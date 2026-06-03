@@ -9,6 +9,7 @@ author: benbfly
 <div class="content-container">
 {% assign ordered_pubs = site.data.pubs | sort | reverse %}
 {% assign full_pubs_scholar = "https://scholar.google.com/citations?user=GnZNoE4AAAAJ" %}
+{% assign web_of_science_researcher = "https://www.webofscience.com/wos/author/record/AAT-3720-2021" %}
 {% assign pub_count = 0 %}
 {% for pub in ordered_pubs %}
   {% if pub.type %}
@@ -17,7 +18,7 @@ author: benbfly
 {% endfor %}
 
 <h4>
-{{ pub_count }} core papers selected from 81 peer-reviewed Berman lab publications. A complete list of publications is available at my <a target="_blank" href="{{full_pubs_scholar}}">Google Scholar page</a>.
+{{ pub_count }} core papers selected from 81 peer-reviewed Berman lab publications. A complete list of publications is available at my <a target="_blank" href="{{full_pubs_scholar}}">Google Scholar page</a> and <a target="_blank" href="{{web_of_science_researcher}}">Web of Science Researcher page</a>.
 </h4>
 <BR>
 
