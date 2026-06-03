@@ -30,8 +30,21 @@ author: benbfly
             {% if member.github %}
               GitHub: <a target="_blank" href="http://github.com/{{ member.github }}">{{ member.github }}</a><BR>
             {% endif %}
+            {% if member.website %}
+              Website: <a target="_blank" rel="noopener" href="{{ member.website }}">{{ member.website }}</a><BR>
+            {% endif %}
+            {% if member.orcid %}
+              ORCID: <a target="_blank" rel="noopener" href="https://orcid.org/{{ member.orcid }}">{{ member.orcid }}</a><BR>
+            {% endif %}
             {% if member.email %}
               Email: {{ member.email }}<BR>
+            {% endif %}
+            {% if member.current_address %}
+              {% if member.current_address_url %}
+                Current address: <a target="_blank" rel="noopener" href="{{ member.current_address_url }}">{{ member.current_address }}</a><BR>
+              {% else %}
+                Current address: {{ member.current_address }}<BR>
+              {% endif %}
             {% endif %}
             </p>
           </div>
@@ -63,8 +76,21 @@ author: benbfly
             {% if member.github %}
               GitHub: <a target="_blank" href="http://github.com/{{ member.github }}">{{ member.github }}</a><BR>
             {% endif %}
+            {% if member.website %}
+              Website: <a target="_blank" rel="noopener" href="{{ member.website }}">{{ member.website }}</a><BR>
+            {% endif %}
+            {% if member.orcid %}
+              ORCID: <a target="_blank" rel="noopener" href="https://orcid.org/{{ member.orcid }}">{{ member.orcid }}</a><BR>
+            {% endif %}
             {% if member.email %}
               Email: {{ member.email }}<BR>
+            {% endif %}
+            {% if member.current_address %}
+              {% if member.current_address_url %}
+                Current address: <a target="_blank" rel="noopener" href="{{ member.current_address_url }}">{{ member.current_address }}</a><BR>
+              {% else %}
+                Current address: {{ member.current_address }}<BR>
+              {% endif %}
             {% endif %}
             </p>
           </div>

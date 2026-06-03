@@ -1,9 +1,8 @@
 ---
 name: Devorah Schlesinger
-position: Graduate Student
+position: PhD student
 github: 
 twitter: 
-photo: girl.png
+photo: schlesinger.png
 email: 
 ---
-

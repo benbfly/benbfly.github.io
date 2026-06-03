@@ -1,9 +1,8 @@
 ---
 name: Ofri Tabib
-position: Graduate Student
+position: MSc student
 github:
 twitter:
 photo: tabib.png
 email:
 ---
-

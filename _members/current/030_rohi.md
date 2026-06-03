@@ -1,9 +1,8 @@
 ---
 name: Rohi Taitou
-position: Graduate Student
+position: MD/PhD student
 github:
 twitter:
 photo: taitou.png
 email:
 ---
-

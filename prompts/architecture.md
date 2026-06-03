@@ -29,7 +29,7 @@ Static Jekyll site for MethylGrammarLab, deployed as GitHub Pages for `methylgra
 
 - Top-level Markdown/HTML files define public pages such as `index.md`, `people.md`, `research.md`, `pubs.md`, `openings.md`, and `contact.md`.
 - Jekyll collections in `_config.yml`: `members`, `jobs`, `projects`, `tools`, and `teaching`. They are consumed by listing pages and are not configured for standalone output.
-- `people.md` reads `_members/current` and `_members/past`; `research.md` reads `_projects`; `openings.md` reads `_jobs`; `tools.md` and `teaching.md` read their matching collections.
+- `people.md` reads `_members/current` and `_members/past`; member front matter supports optional `website`, `orcid`, `current_address`, and `current_address_url` fields in addition to the existing name/position/contact/photo fields. `research.md` reads `_projects`; `openings.md` reads `_jobs`; `tools.md` and `teaching.md` read their matching collections.
 - Publications are CSL-style JSON records under `_data/pubs` rendered by `pubs.md`; `_bibliography/toprefs.bib` is a BibTeX source/reference file.
 
 ## Assets And Styling
