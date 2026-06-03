@@ -3,7 +3,6 @@ name: Efrat Katsman
 position: Graduate Student
 github: ekushele
 twitter: 
-photo: girl.png
+photo: katsman.png
 email: 
 ---
-
