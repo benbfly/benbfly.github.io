@@ -17,7 +17,7 @@ author: benbfly
 {% endfor %}
 
 <h4>
-{{ pub_count }} core papers selected from 80 peer-reviewed Berman lab publications. A complete list of publications is available at my <a target="_blank" href="{{full_pubs_scholar}}">Google Scholar page</a>.
+{{ pub_count }} core papers selected from 81 peer-reviewed Berman lab publications. A complete list of publications is available at my <a target="_blank" href="{{full_pubs_scholar}}">Google Scholar page</a>.
 </h4>
 <BR>
 

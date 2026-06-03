@@ -1,0 +1,103 @@
+{
+  "type": "article-journal",
+  "id": "ref0125",
+  "author": [
+    {
+      "given": "Efrat",
+      "family": "Katsman"
+    },
+    {
+      "given": "Sara",
+      "family": "Isaac"
+    },
+    {
+      "given": "Alaa",
+      "family": "Darwish"
+    },
+    {
+      "given": "Myriam",
+      "family": "Maoz"
+    },
+    {
+      "given": "Michal",
+      "family": "Inbar"
+    },
+    {
+      "given": "MazalTov",
+      "family": "Marouani"
+    },
+    {
+      "given": "Irene",
+      "family": "Unterman"
+    },
+    {
+      "given": "Ahinoam",
+      "family": "Gugenheim"
+    },
+    {
+      "given": "Nada",
+      "family": "Salaymeh"
+    },
+    {
+      "given": "Shatha",
+      "family": "Abu Khdeir"
+    },
+    {
+      "given": "Beatrice",
+      "family": "Uziely"
+    },
+    {
+      "given": "Tamar",
+      "family": "Peretz"
+    },
+    {
+      "given": "Luna",
+      "family": "Kaduri"
+    },
+    {
+      "given": "Ayala",
+      "family": "Hubert"
+    },
+    {
+      "given": "Jonathan E",
+      "family": "Cohen"
+    },
+    {
+      "given": "Azzam",
+      "family": "Salah"
+    },
+    {
+      "given": "Mark",
+      "family": "Temper"
+    },
+    {
+      "given": "Tamar",
+      "family": "Sela"
+    },
+    {
+      "given": "Albert",
+      "family": "Grinshpun"
+    },
+    {
+      "given": "Aviad",
+      "family": "Zick"
+    },
+    {
+      "given": "Benjamin P.",
+      "family": "Berman"
+    },
+    {
+      "given": "Amir",
+      "family": "Eden"
+    }
+  ],
+  "title": "Improved deconvolution of circulating tumor DNA from ultra-low-pass whole-genome methylation sequencing using CelFiE-ISH",
+  "container-title": "bioRxiv",
+  "issued": {
+    "date-parts": [
+      [2026, 4, 18]
+    ]
+  },
+  "DOI": "10.64898/2026.04.15.718632",
+  "URL": "https://doi.org/10.64898/2026.04.15.718632"
+}

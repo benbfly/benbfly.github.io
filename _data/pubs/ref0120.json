@@ -1,0 +1,63 @@
+{
+  "type": "article-journal",
+  "id": "ref0120",
+  "author": [
+    {
+      "given": "Benjamin P.",
+      "family": "Berman"
+    },
+    {
+      "given": "Sarah A.",
+      "family": "Erdman"
+    },
+    {
+      "given": "Christina",
+      "family": "Wheeler"
+    },
+    {
+      "given": "Justin",
+      "family": "Cayford"
+    },
+    {
+      "given": "Jean-Valery",
+      "family": "Turatsinze"
+    },
+    {
+      "given": "Maria",
+      "family": "Ouzounova"
+    },
+    {
+      "given": "Marie",
+      "family": "Piecyk"
+    },
+    {
+      "given": "Marielle",
+      "family": "Herzog"
+    },
+    {
+      "given": "Lea",
+      "family": "Payen-Gay"
+    },
+    {
+      "given": "Thomas",
+      "family": "Walter"
+    },
+    {
+      "given": "Theresa K.",
+      "family": "Kelly"
+    }
+  ],
+  "title": "Long-read sequencing identifies aberrant fragmentation patterns linked to elevated cell-free DNA levels in cancer",
+  "container-title": "Genome Biology",
+  "issued": {
+    "date-parts": [
+      [2026, 4, 10]
+    ]
+  },
+  "DOI": "10.1186/s13059-026-04060-8",
+  "URL": "https://doi.org/10.1186/s13059-026-04060-8",
+  "volume": "27",
+  "issue": "1",
+  "page": "165",
+  "publisher": "BioMed Central"
+}
