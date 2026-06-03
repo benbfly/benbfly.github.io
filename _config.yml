@@ -16,7 +16,7 @@
 #>- # this means to ignore newlines until "baseurl:"
 title: MethylGrammarLab
 email: "ben.berman@mail.huji.ac.il"
-description: The Methyl Grammar lab at Hebrew University 
+description: The Ben Berman lab at Hebrew University 
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: benbfly
